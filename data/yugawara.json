@@ -22,7 +22,11 @@
     "parking_fee": "free",
     "parking_ease": "easy",
     "parking_note": "店舗駐車場58台(無料、同チェーン通常店舗の標準パターン)",
-    "parking_source": "https://www.bookoff.co.jp/shop/shop10535.html"
+    "parking_source": "https://www.bookoff.co.jp/shop/shop10535.html",
+    "mega": false,
+    "lng": 139.149765,
+    "lat": 35.287777,
+    "geo_title": "神奈川県小田原市飯田岡３９番地"
   },
   {
     "name": "モードオフ小田原ダイヤ街店",
@@ -46,7 +50,11 @@
     "parking_fee": null,
     "parking_ease": "none",
     "parking_note": "専用駐車場なし(地下1階店舗)。近隣コインパーキングを利用",
-    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=104030"
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=104030",
+    "mega": false,
+    "lng": 139.15863,
+    "lat": 35.255287,
+    "geo_title": "神奈川県小田原市栄町二丁目８番１５号"
   },
   {
     "name": "ホビーオフ小田原ダイヤ街店",
@@ -71,7 +79,11 @@
     "parking_fee": null,
     "parking_ease": "none",
     "parking_note": "専用駐車場なし(地下1階店舗)。近隣コインパーキングを利用",
-    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=108040"
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=108040",
+    "mega": false,
+    "lng": 139.15863,
+    "lat": 35.255287,
+    "geo_title": "神奈川県小田原市栄町二丁目８番１５号"
   },
   {
     "name": "ハードオフ小田原鴨宮店",
@@ -98,7 +110,11 @@
     "parking_fee": "free",
     "parking_ease": "easy",
     "parking_note": "店舗駐車場44台(無料)。ホビーオフと共用",
-    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=101030"
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=101030",
+    "mega": false,
+    "lng": 139.194733,
+    "lat": 35.27956,
+    "geo_title": "神奈川県小田原市前川２３５番地"
   },
   {
     "name": "ホビーオフ小田原鴨宮店",
@@ -123,7 +139,11 @@
     "parking_fee": "free",
     "parking_ease": "easy",
     "parking_note": "ハードオフと共用の駐車場44台(無料)",
-    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=108004"
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=108004",
+    "mega": false,
+    "lng": 139.194733,
+    "lat": 35.27956,
+    "geo_title": "神奈川県小田原市前川２３５番地"
   },
   {
     "name": "オフハウス小田原鴨宮シティーモール店",
@@ -149,7 +169,11 @@
     "parking_fee": "free",
     "parking_ease": "easy",
     "parking_note": "フレスポ小田原シティーモール駐車場2,500台(無料、南館1,500+北館1,000)",
-    "parking_source": "https://www.e-frespo.com/odawara/shop/access.jsp"
+    "parking_source": "https://www.e-frespo.com/odawara/shop/access.jsp",
+    "mega": false,
+    "lng": 139.193695,
+    "lat": 35.281898,
+    "geo_title": "神奈川県小田原市前川１２０番地"
   },
   {
     "name": "ガレージオフ 小田原鴨宮シティーモール店",
@@ -173,7 +197,11 @@
     "parking_fee": "free",
     "parking_ease": "easy",
     "parking_note": "フレスポ小田原シティーモール駐車場2,500台(無料、南館1,500+北館1,000)",
-    "parking_source": "https://www.e-frespo.com/odawara/shop/access.jsp"
+    "parking_source": "https://www.e-frespo.com/odawara/shop/access.jsp",
+    "mega": false,
+    "lng": 139.193695,
+    "lat": 35.281898,
+    "geo_title": "神奈川県小田原市前川１２０番地"
   },
   {
     "name": "トレジャーファクトリー小田原店",
@@ -200,7 +228,11 @@
     "parking_fee": "free",
     "parking_ease": "ok",
     "parking_note": "専用駐車場28台。公式な料金記載はないが同チェーン標準店舗は無料が基本(要最終確認)",
-    "parking_source": "https://www.treasure-f.com/shop/417/"
+    "parking_source": "https://www.treasure-f.com/shop/417/",
+    "mega": false,
+    "lng": 139.171661,
+    "lat": 35.279629,
+    "geo_title": "神奈川県小田原市鴨宮８１０番地"
   },
   {
     "name": "セカンドストリート 小田原扇町店",
@@ -227,7 +259,11 @@
     "parking_fee": null,
     "parking_ease": null,
     "parking_note": "駐車場23台(専用)。無料/有料の公式記載が見当たらず未確定(要確認)",
-    "parking_source": "https://www.2ndstreet.jp/shop/details?shopsId=31426"
+    "parking_source": "https://www.2ndstreet.jp/shop/details?shopsId=31426",
+    "mega": false,
+    "lng": 139.1586,
+    "lat": 35.271282,
+    "geo_title": "神奈川県小田原市扇町三丁目１３番２０号"
   },
   {
     "name": "BOOKOFF 函南店",
@@ -252,7 +288,11 @@
     "parking_fee": "free",
     "parking_ease": "easy",
     "parking_note": "店舗駐車場40台(無料、同チェーン通常店舗の標準パターン)",
-    "parking_source": "https://www.bookoff.co.jp/shop/shop10074.html"
+    "parking_source": "https://www.bookoff.co.jp/shop/shop10074.html",
+    "mega": false,
+    "lng": 138.93692,
+    "lat": 35.078728,
+    "geo_title": "静岡県函南町塚本１３５番地"
   },
   {
     "name": "リサイクルの店 やまと",
@@ -278,7 +318,11 @@
     "parking_fee": "free",
     "parking_ease": "hard",
     "parking_note": "駐車場1台のみ",
-    "parking_source": "https://www.navida.ne.jp/snavi/100603_1.html"
+    "parking_source": "https://www.navida.ne.jp/snavi/100603_1.html",
+    "mega": false,
+    "lng": 139.091812,
+    "lat": 35.14135,
+    "geo_title": "神奈川県湯河原町土肥六丁目１１番"
   },
   {
     "name": "総合リサイクル リュースエコタン小田原店",
@@ -303,7 +347,11 @@
     "parking_fee": null,
     "parking_ease": "none",
     "parking_note": "専用駐車場なし",
-    "parking_source": "https://www.ekiten.jp/shop_38680551/"
+    "parking_source": "https://www.ekiten.jp/shop_38680551/",
+    "mega": false,
+    "lng": 139.175217,
+    "lat": 35.279362,
+    "geo_title": "神奈川県小田原市鴨宮７４９番地"
   },
   {
     "name": "リサイクルフジシロ小田原店",
@@ -329,6 +377,10 @@
     "parking_fee": "free",
     "parking_ease": "easy",
     "parking_note": "国道255号沿いの無料駐車場あり(台数の公式記載なし、300坪は売場面積)",
-    "parking_source": "https://www.recycle-fujishiro.com/odawara/"
+    "parking_source": "https://www.recycle-fujishiro.com/odawara/",
+    "mega": true,
+    "lng": 139.15892,
+    "lat": 35.270172,
+    "geo_title": "神奈川県小田原市扇町二丁目２４番３号"
   }
 ]

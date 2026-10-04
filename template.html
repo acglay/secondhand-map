@@ -4,29 +4,38 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>中古店まとめ(門仲・大船・湯河原)</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
   body { font-family: system-ui, sans-serif; margin: 0; background: #f6f5f2; color: #222; }
-  header { position: sticky; top: 0; background: #fff; border-bottom: 1px solid #ddd; padding: 10px 12px; z-index: 1; }
-  h1 { font-size: 17px; margin: 0 0 8px; }
+  header { position: sticky; top: 0; background: #fff; border-bottom: 1px solid #ddd; padding: 10px 12px; z-index: 1000; }
+  h1 { font-size: 17px; margin: 0 0 4px; }
   .row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 6px; }
-  button.tab { border: 1px solid #bbb; background: #fff; border-radius: 16px; padding: 4px 12px; font-size: 14px; }
-  button.tab.on { background: #333; color: #fff; border-color: #333; }
+  button.tab, button.mode { border: 1px solid #bbb; background: #fff; border-radius: 16px; padding: 4px 12px; font-size: 14px; }
+  button.tab.on, button.mode.on { background: #333; color: #fff; border-color: #333; }
   label { font-size: 13px; display: inline-flex; gap: 4px; align-items: center; }
   input[type=search] { flex: 1; min-width: 140px; padding: 5px 8px; font-size: 14px; }
   #count { font-size: 12px; color: #666; }
+  #geo { font-size: 12px; color: #a60; }
   main { padding: 10px 12px; max-width: 900px; margin: auto; }
+  #map { height: calc(100vh - 190px); min-height: 320px; display: none; }
   h2 { font-size: 15px; margin: 18px 0 6px; }
   .card { background: #fff; border-radius: 8px; padding: 10px 12px; margin-bottom: 8px; border-left: 5px solid #ccc; }
+  .card.mg { border-left-color: #d0352b; }
   .card.sb { border-left-color: #e8a400; }
   .card.lg { border-left-color: #3a7bd5; }
   .card.fa { opacity: .7; }
   .name { font-weight: 600; font-size: 15px; }
+  .dist { float: right; font-size: 13px; font-weight: 600; color: #a60; }
   .badge { display: inline-block; font-size: 11px; padding: 1px 6px; border-radius: 4px; margin-left: 4px; vertical-align: 1px; }
+  .b-mg { background: #f8c9c4; } .b-sb { background: #ffe9b0; } .b-lg { background: #d6e6ff; } .b-fa { background: #f3d6e8; } .b-low { background: #eee; color: #a00; }
   .b-p-easy { background: #cfeccf; } .b-p-ok { background: #e6f0c8; } .b-p-hard { background: #f6e3c6; } .b-p-none { background: #eee; color: #777; }
-  .b-sb { background: #ffe9b0; } .b-lg { background: #d6e6ff; } .b-fa { background: #f3d6e8; } .b-low { background: #eee; color: #a00; }
   .meta { font-size: 12px; color: #555; margin-top: 3px; }
   .hl { font-size: 13px; margin-top: 5px; }
   a { color: #2a5db0; }
+  .leaflet-popup-content { margin: 10px 12px; font-size: 13px; }
+  .legend { font-size: 12px; color: #555; }
+  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; vertical-align: -1px; margin: 0 2px 0 8px; }
 </style>
 </head>
 <body>
@@ -34,9 +43,16 @@
   <h1><a id="home" href="https://hub-ashy-delta.vercel.app" style="display:none;text-decoration:none">🏠</a> 中古店まとめ</h1>
   <div class="row" id="tabs"></div>
   <div class="row">
-    <label><input type="checkbox" id="fashion"> ファッション専門店も表示</label>
+    <button class="mode on" data-v="list">📋 リスト</button>
+    <button class="mode" data-v="map">🗺 地図</button>
+    <button class="mode" id="near">📍 近い順</button>
+    <span id="geo"></span>
+  </div>
+  <div class="row">
+    <label><input type="checkbox" id="mega"> 🏬 超大型だけ</label>
     <label><input type="checkbox" id="pick"> SB・大型・特徴ありだけ</label>
     <label><input type="checkbox" id="car"> 🅿 車で行ける店だけ</label>
+    <label><input type="checkbox" id="fashion"> ファッション専門店も表示</label>
   </div>
   <div class="row">
     <input type="search" id="q" placeholder="店名・品目で絞る(例: 楽器、古道具)">
@@ -44,48 +60,116 @@
   </div>
 </header>
 <main id="list"></main>
+<div id="map"></div>
 <script>
 const SHOPS = __DATA__;
 // hub経由(#hub=<token>)で開いたときだけ🏠を出す
 if (/hub=/.test(location.hash)) sessionStorage.setItem("secondhand-map-hub-v1", "1");
 if (sessionStorage.getItem("secondhand-map-hub-v1")) document.getElementById("home").style.display = "";
+
 const AREAS = { all: "すべて", monnaka: "門前仲町", ofuna: "大船", yugawara: "湯河原" };
-let area = "all";
+const PARK = { easy: "🅿◎ 停めやすい", ok: "🅿○ 駐車場あり", hard: "🅿△ 停めにくい", none: "🅿✕ 駐車場なし" };
+const MEGA_NOTE = "超大型 = SUPER BAZAAR / 売場300坪以上 / ハードオフとオフハウスが同じ施設";
+let area = "all", view = "list", here = null; // here = [lat, lng]
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-const PARK = { easy: "🅿◎ 停めやすい", ok: "🅿○ 駐車場あり", hard: "🅿△ 停めにくい", none: "🅿✕ 駐車場なし" };
-const score = (s) => (s.super_bazaar ? 4 : 0) + (s.large ? 2 : 0) + (s.highlight ? 1 : 0);
+const score = (s) => (s.mega ? 8 : 0) + (s.super_bazaar ? 4 : 0) + (s.large ? 2 : 0) + (s.highlight ? 1 : 0);
+const km = (s) => {
+  if (!here || s.lat == null) return Infinity;
+  const t = Math.PI / 180, x = Math.sin((s.lat - here[0]) * t / 2) ** 2 +
+    Math.cos(here[0] * t) * Math.cos(s.lat * t) * Math.sin((s.lng - here[1]) * t / 2) ** 2;
+  return 12742 * Math.asin(Math.sqrt(x));
+};
+const color = (s) => s.mega ? "#d0352b" : s.super_bazaar ? "#e8a400" : s.large ? "#3a7bd5" : s.fashion_only ? "#d77fb4" : "#888";
 
-function render() {
-  const showFashion = $("fashion").checked, pickOnly = $("pick").checked;
+function filtered() {
   const q = $("q").value.trim().toLowerCase();
-  const hit = SHOPS.filter((s) =>
+  return SHOPS.filter((s) =>
     (area === "all" || s.area === area) &&
-    (showFashion || !s.fashion_only) &&
-    (!pickOnly || score(s) > 0) &&
+    ($("fashion").checked || !s.fashion_only) &&
+    (!$("mega").checked || s.mega) &&
+    (!$("pick").checked || score(s) > 0) &&
     (!$("car").checked || s.parking_ease === "easy" || s.parking_ease === "ok") &&
     (!q || [s.name, s.chain, s.address, s.highlight, (s.categories || []).join(" ")].join(" ").toLowerCase().includes(q)));
-  $("count").textContent = `${hit.length}件 / 全${SHOPS.length}件`;
+}
+
+function badges(s) {
+  return (s.mega ? '<span class="badge b-mg">超大型</span>' : "") +
+    (s.super_bazaar ? '<span class="badge b-sb">SUPER BAZAAR</span>' : "") +
+    (s.large && !s.mega ? '<span class="badge b-lg">大型</span>' : "") +
+    (s.fashion_only ? '<span class="badge b-fa">ファッション専門</span>' : "") +
+    (s.confidence === "low" ? '<span class="badge b-low">要確認</span>' : "");
+}
+function parking(s) {
+  if (!s.parking_ease && !s.parking_note) return "";
+  return `<div class="meta">${s.parking_ease ? `<span class="badge b-p-${s.parking_ease}" style="margin-left:0">${PARK[s.parking_ease]}</span> ` : "🅿 "}${esc(s.parking_note)}</div>`;
+}
+const distLabel = (s) => (here && km(s) < Infinity ? `${km(s).toFixed(1)}km` : "");
+const links = (s) => `<a href="https://www.google.com/maps/search/${encodeURIComponent(s.name + " " + s.address)}" target="_blank">地図アプリ</a>` +
+  (s.source ? ` ・ <a href="${esc(s.source)}" target="_blank">出典</a>` : "");
+
+function card(s) {
+  return `<div class="card ${s.mega ? "mg" : s.super_bazaar ? "sb" : s.large ? "lg" : ""} ${s.fashion_only ? "fa" : ""}">
+    ${here ? `<span class="dist">${distLabel(s)}</span>` : ""}
+    <div class="name">${esc(s.name)} ${badges(s)}</div>
+    <div class="meta">${esc((s.categories || []).join("・"))}${s.size ? " / " + esc(s.size) : ""}</div>
+    ${s.highlight ? `<div class="hl">${esc(s.highlight)}</div>` : ""}
+    ${parking(s)}
+    <div class="meta">${esc(s.nearest)} ・ ${esc(s.hours)}</div>
+    <div class="meta">${links(s)} ・ ${esc(s.address)}</div>
+  </div>`;
+}
+
+function renderList(hit) {
+  if (here) { // 近い順: 地域でまとめず距離順に1列
+    $("list").innerHTML = [...hit].sort((a, b) => km(a) - km(b)).map(card).join("") || "<p>該当なし</p>";
+    return;
+  }
   const groups = Object.keys(AREAS).filter((a) => a !== "all" && (area === "all" || area === a));
   $("list").innerHTML = groups.map((a) => {
     const rows = hit.filter((s) => s.area === a).sort((x, y) => score(y) - score(x));
-    if (!rows.length) return "";
-    return `<h2>${AREAS[a]}(${rows.length})</h2>` + rows.map((s) => `
-      <div class="card ${s.super_bazaar ? "sb" : s.large ? "lg" : ""} ${s.fashion_only ? "fa" : ""}">
-        <div class="name">${esc(s.name)}
-          ${s.super_bazaar ? '<span class="badge b-sb">SUPER BAZAAR</span>' : ""}
-          ${s.large ? '<span class="badge b-lg">大型</span>' : ""}
-          ${s.fashion_only ? '<span class="badge b-fa">ファッション専門</span>' : ""}
-          ${s.confidence === "low" ? '<span class="badge b-low">要確認</span>' : ""}
-        </div>
-        <div class="meta">${esc((s.categories || []).join("・"))}${s.size ? " / " + esc(s.size) : ""}</div>
-        ${s.highlight ? `<div class="hl">${esc(s.highlight)}</div>` : ""}
-        ${s.parking_ease || s.parking_note ? `<div class="meta">${s.parking_ease ? `<span class="badge b-p-${s.parking_ease}" style="margin-left:0">${PARK[s.parking_ease]}</span> ` : "🅿 "}${esc(s.parking_note)}</div>` : ""}
-        <div class="meta">${esc(s.nearest)} ・ ${esc(s.hours)}</div>
-        <div class="meta"><a href="https://www.google.com/maps/search/${encodeURIComponent(s.name + " " + s.address)}" target="_blank">地図</a>
-          ${s.source ? ` ・ <a href="${esc(s.source)}" target="_blank">出典</a>` : ""} ・ ${esc(s.address)}</div>
-      </div>`).join("");
+    return rows.length ? `<h2>${AREAS[a]}(${rows.length})</h2>` + rows.map(card).join("") : "";
   }).join("") || "<p>該当なし</p>";
+}
+
+let map, layer;
+function renderMap(hit) {
+  if (!map) {
+    map = L.map("map");
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "© OpenStreetMap contributors" }).addTo(map);
+    const lg = L.control({ position: "bottomleft" });
+    lg.onAdd = () => Object.assign(L.DomUtil.create("div", "legend leaflet-bar"), { style: "background:#fff;padding:4px 8px",
+      innerHTML: [["#d0352b", "超大型"], ["#e8a400", "SB"], ["#3a7bd5", "大型"], ["#888", "その他"], ["#d77fb4", "服"]].map(([c, t]) => `<span class="dot" style="background:${c}"></span>${t}`).join("") });
+    lg.addTo(map);
+    layer = L.layerGroup().addTo(map);
+  }
+  layer.clearLayers();
+  const pts = [];
+  // 重要な店ほど手前に描く
+  for (const s of [...hit].sort((a, b) => score(a) - score(b))) {
+    if (s.lat == null) continue;
+    pts.push([s.lat, s.lng]);
+    L.circleMarker([s.lat, s.lng], { radius: s.mega ? 11 : s.large ? 8 : 6, color: "#fff", weight: 2, fillColor: color(s), fillOpacity: .95 })
+      .bindPopup(`<b>${esc(s.name)}</b> ${distLabel(s)}<br>${badges(s)}${parking(s)}<div class="meta">${esc(s.hours)}</div><div class="meta">${links(s)}</div>`)
+      .addTo(layer);
+  }
+  if (here) {
+    L.circleMarker(here, { radius: 8, color: "#fff", weight: 3, fillColor: "#1a73e8", fillOpacity: 1 }).bindPopup("現在地").addTo(layer);
+    // 現在地+近い5件が入るように
+    const near5 = hit.filter((s) => s.lat != null).sort((a, b) => km(a) - km(b)).slice(0, 5).map((s) => [s.lat, s.lng]);
+    map.fitBounds(L.latLngBounds([here, ...near5]).pad(0.2));
+  } else if (pts.length) {
+    map.fitBounds(L.latLngBounds(pts).pad(0.1));
+  }
+}
+
+function render() {
+  const hit = filtered();
+  $("count").textContent = `${hit.length}件 / 全${SHOPS.length}件`;
+  $("list").style.display = view === "list" ? "" : "none";
+  $("map").style.display = view === "map" ? "block" : "none";
+  if (view === "list") renderList(hit);
+  else { renderMap(hit); setTimeout(() => map.invalidateSize(), 0); }
 }
 
 $("tabs").innerHTML = Object.entries(AREAS).map(([k, v]) => `<button class="tab ${k === area ? "on" : ""}" data-a="${k}">${v}</button>`).join("");
@@ -95,7 +179,27 @@ $("tabs").onclick = (e) => {
   document.querySelectorAll(".tab").forEach((b) => b.classList.toggle("on", b.dataset.a === a));
   render();
 };
-["fashion", "pick", "car", "q"].forEach((id) => $(id).addEventListener("input", render));
+document.querySelectorAll("button.mode[data-v]").forEach((b) => b.onclick = () => {
+  view = b.dataset.v;
+  document.querySelectorAll("button.mode[data-v]").forEach((x) => x.classList.toggle("on", x === b));
+  render();
+});
+$("near").onclick = () => {
+  if (here) { here = null; $("near").classList.remove("on"); $("geo").textContent = ""; render(); return; }
+  if (!navigator.geolocation) { $("geo").textContent = "この端末では現在地が取れません"; return; }
+  $("geo").textContent = "現在地を取得中…";
+  navigator.geolocation.getCurrentPosition((p) => {
+    here = [p.coords.latitude, p.coords.longitude];
+    $("near").classList.add("on");
+    $("geo").textContent = "直線距離で近い順";
+    // 近い順は地域をまたいで探すので「すべて」に戻す
+    area = "all";
+    document.querySelectorAll(".tab").forEach((b) => b.classList.toggle("on", b.dataset.a === "all"));
+    render();
+  }, (e) => { $("geo").textContent = "現在地を取得できませんでした(" + e.message + ")"; }, { enableHighAccuracy: true, timeout: 10000 });
+};
+$("mega").parentElement.title = MEGA_NOTE;
+["fashion", "pick", "car", "mega", "q"].forEach((id) => $(id).addEventListener("input", render));
 render();
 </script>
 </body>

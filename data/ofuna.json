@@ -27,7 +27,11 @@
     "parking_fee": "conditional",
     "parking_ease": "ok",
     "parking_note": "店舗駐車場622台。購入金額に応じて1〜3時間無料、買取は2時間無料(以降有料)",
-    "parking_source": "https://www.bookoff.co.jp/shop/shop20421.html"
+    "parking_source": "https://www.bookoff.co.jp/shop/shop20421.html",
+    "mega": true,
+    "lng": 139.538498,
+    "lat": 35.354252,
+    "geo_title": "神奈川県鎌倉市大船六丁目１番"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 横浜東戸塚オリンピック店",
@@ -57,7 +61,11 @@
     "parking_fee": "free",
     "parking_ease": "easy",
     "parking_note": "店舗駐車場660台。購入にかかわらず入庫後120分無料(以降有料)",
-    "parking_source": "https://www.bookoff.co.jp/shop/shop20379.html"
+    "parking_source": "https://www.bookoff.co.jp/shop/shop20379.html",
+    "mega": true,
+    "lng": 139.555771,
+    "lat": 35.428234,
+    "geo_title": "神奈川県横浜市戸塚区川上町５２番地"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR Luz湘南辻堂店",
@@ -86,7 +94,11 @@
     "parking_fee": "conditional",
     "parking_ease": "ok",
     "parking_note": "Luz湘南辻堂駐車場104台(平面+機械式)。施設内1,000円ごとに1時間、最大3時間無料(以降有料)",
-    "parking_source": "https://www.luz-tsujido.com/guide/"
+    "parking_source": "https://www.luz-tsujido.com/guide/",
+    "mega": true,
+    "lng": 139.448318,
+    "lat": 35.3381,
+    "geo_title": "神奈川県藤沢市辻堂神台一丁目２番１２号"
   },
   {
     "name": "BOOKOFF PLUS 藤沢大庭店",
@@ -114,7 +126,11 @@
     "parking_fee": "free",
     "parking_ease": "easy",
     "parking_note": "スシローと共用の駐車場71台(無料)",
-    "parking_source": "https://www.bookoff.co.jp/shop/shop20281.html"
+    "parking_source": "https://www.bookoff.co.jp/shop/shop20281.html",
+    "mega": false,
+    "lng": 139.451843,
+    "lat": 35.368652,
+    "geo_title": "神奈川県藤沢市大庭５４５４番地"
   },
   {
     "name": "BOOKOFF 逗子久木店",
@@ -140,7 +156,11 @@
     "parking_fee": "free",
     "parking_ease": "ok",
     "parking_note": "店舗駐車場23台。公式な料金記載はないが同チェーンの通常店舗は無料が基本(要最終確認)",
-    "parking_source": "https://www.bookoff.co.jp/shop/shop10807.html"
+    "parking_source": "https://www.bookoff.co.jp/shop/shop10807.html",
+    "mega": false,
+    "lng": 139.570618,
+    "lat": 35.300995,
+    "geo_title": "神奈川県逗子市久木四丁目１３番２５号"
   },
   {
     "name": "BOOKOFF 横浜本郷台店",
@@ -166,7 +186,11 @@
     "parking_fee": "free",
     "parking_ease": "easy",
     "parking_note": "店舗駐車場40台。公式な料金記載はないが同チェーンの通常店舗は無料が基本(要最終確認)",
-    "parking_source": "https://www.bookoff.co.jp/shop/shop10744.html"
+    "parking_source": "https://www.bookoff.co.jp/shop/shop10744.html",
+    "mega": false,
+    "lng": 139.542419,
+    "lat": 35.374435,
+    "geo_title": "神奈川県横浜市栄区飯島町１４３４番地"
   },
   {
     "name": "BOOKOFF 横浜港南丸山台店",
@@ -192,7 +216,11 @@
     "parking_fee": "free",
     "parking_ease": "easy",
     "parking_note": "隣接カラオケボックスと共用の駐車場33台(無料)。休日は混雑あり",
-    "parking_source": "https://www.bookoff.co.jp/shop/shop10413.html"
+    "parking_source": "https://www.bookoff.co.jp/shop/shop10413.html",
+    "mega": false,
+    "lng": 139.56636,
+    "lat": 35.39468,
+    "geo_title": "神奈川県横浜市港南区丸山台四丁目３番１号"
   },
   {
     "name": "BOOKOFF 藤沢六会店",
@@ -218,7 +246,11 @@
     "parking_fee": "free",
     "parking_ease": "ok",
     "parking_note": "店舗駐車場18台(無料)",
-    "parking_source": "https://www.navitime.co.jp/poi?spot=06105-10481"
+    "parking_source": "https://www.navitime.co.jp/poi?spot=06105-10481",
+    "mega": false,
+    "lng": 139.47525,
+    "lat": 35.38142,
+    "geo_title": "神奈川県藤沢市亀井野二丁目２５番"
   },
   {
     "name": "ハードオフ鎌倉大船モール店",
@@ -246,7 +278,11 @@
     "parking_fee": "conditional",
     "parking_ease": "ok",
     "parking_note": "コーナン鎌倉大船モール駐車場1,441台。買い物なしでも90分無料、買い物で最大180分無料(以降有料)",
-    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=201382"
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=201382",
+    "mega": true,
+    "lng": 139.517532,
+    "lat": 35.346798,
+    "geo_title": "神奈川県鎌倉市岡本１１８８番地"
   },
   {
     "name": "オフハウス鎌倉大船モール店",
@@ -274,7 +310,11 @@
     "parking_fee": "conditional",
     "parking_ease": "ok",
     "parking_note": "コーナン鎌倉大船モール駐車場1,441台。買い物なしでも90分無料、買い物で最大180分無料(以降有料)",
-    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=203288"
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=203288",
+    "mega": true,
+    "lng": 139.517532,
+    "lat": 35.346798,
+    "geo_title": "神奈川県鎌倉市岡本１１８８番地"
   },
   {
     "name": "ホビーオフ藤沢店",
@@ -298,7 +338,11 @@
     "parking_fee": "conditional",
     "parking_ease": "ok",
     "parking_note": "提携駐車場(店舗裏・湘南パーキング)。買取1時間無料/購入1,000円以上1時間・5,000円以上2時間無料/未購入でも申告で30分無料",
-    "parking_source": "https://www.hardoff.co.jp/shop/kanto/kanagawa/hobbyoff/208096/"
+    "parking_source": "https://www.hardoff.co.jp/shop/kanto/kanagawa/hobbyoff/208096/",
+    "mega": false,
+    "lng": 139.483612,
+    "lat": 35.339256,
+    "geo_title": "神奈川県藤沢市藤沢５１７番地"
   },
   {
     "name": "ハードオフ横浜緑園都市店",
@@ -326,7 +370,11 @@
     "parking_fee": "free",
     "parking_ease": "ok",
     "parking_note": "店舗駐車場17台(無料)",
-    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=201168"
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=201168",
+    "mega": false,
+    "lng": 139.525314,
+    "lat": 35.448486,
+    "geo_title": "神奈川県横浜市泉区緑園七丁目７番"
   },
   {
     "name": "トレジャーファクトリー大船店",
@@ -355,7 +403,11 @@
     "parking_fee": "free",
     "parking_ease": "easy",
     "parking_note": "共用駐車場35台(無料)",
-    "parking_source": "https://www.treasure-f.com/shop/46/"
+    "parking_source": "https://www.treasure-f.com/shop/46/",
+    "mega": false,
+    "lng": 139.532028,
+    "lat": 35.362957,
+    "geo_title": "神奈川県横浜市栄区笠間四丁目２番１７号"
   },
   {
     "name": "トレジャーファクトリー藤沢店",
@@ -382,7 +434,11 @@
     "parking_fee": "free",
     "parking_ease": "ok",
     "parking_note": "専用駐車場17台(無料)",
-    "parking_source": "https://www.treasure-f.com/shop/725/"
+    "parking_source": "https://www.treasure-f.com/shop/725/",
+    "mega": false,
+    "lng": 139.473953,
+    "lat": 35.384785,
+    "geo_title": "神奈川県藤沢市亀井野一丁目１４番"
   },
   {
     "name": "トレファクスタイル東戸塚店",
@@ -406,7 +462,11 @@
     "parking_fee": "conditional",
     "parking_ease": "ok",
     "parking_note": "専用駐車場なし。隣接TYパーキングと提携し5,000円以上購入または買取成立で最大1時間無料",
-    "parking_source": "https://www.tf-style.com/shop/424/topics/342288/"
+    "parking_source": "https://www.tf-style.com/shop/424/topics/342288/",
+    "mega": false,
+    "lng": 139.555527,
+    "lat": 35.431988,
+    "geo_title": "神奈川県横浜市戸塚区川上町８８番地"
   },
   {
     "name": "トレファクスタイル辻堂店",
@@ -430,7 +490,11 @@
     "parking_fee": "conditional",
     "parking_ease": "ok",
     "parking_note": "専用駐車場なし。提携駐車場があり買取成立または5,000円以上購入でサービス券",
-    "parking_source": "https://www.tf-style.com/shop/492/"
+    "parking_source": "https://www.tf-style.com/shop/492/",
+    "mega": false,
+    "lng": 139.445236,
+    "lat": 35.336395,
+    "geo_title": "神奈川県藤沢市辻堂二丁目５番１号"
   },
   {
     "name": "トレファクスタイル藤沢石川店",
@@ -454,7 +518,11 @@
     "parking_fee": "free",
     "parking_ease": "ok",
     "parking_note": "専用駐車場23台(無料)",
-    "parking_source": "https://www.tf-style.com/shop/516/"
+    "parking_source": "https://www.tf-style.com/shop/516/",
+    "mega": false,
+    "lng": 139.452698,
+    "lat": 35.373653,
+    "geo_title": "神奈川県藤沢市石川三丁目２２番"
   },
   {
     "name": "セカンドストリート 西友大船店",
@@ -478,7 +546,11 @@
     "parking_fee": "conditional",
     "parking_ease": "ok",
     "parking_note": "西友大船店第1駐車場34台。2,000円以上購入で1時間、4,000円以上で2時間無料(以降有料)",
-    "parking_source": "https://freeparking-info.com/supermarket-seiyu-kanagawa-kamakurashi-ofuna/"
+    "parking_source": "https://freeparking-info.com/supermarket-seiyu-kanagawa-kamakurashi-ofuna/",
+    "mega": false,
+    "lng": 139.533463,
+    "lat": 35.353439,
+    "geo_title": "神奈川県鎌倉市大船一丁目２５番３０号"
   },
   {
     "name": "セカンドストリート 横浜戸塚店",
@@ -504,7 +576,11 @@
     "parking_fee": "paid",
     "parking_ease": "ok",
     "parking_note": "店舗1階のタイムズ駐車場(有料)。購入による無料化の記載なし",
-    "parking_source": "https://www.2ndstreet.jp/shop/details?shopsId=31145"
+    "parking_source": "https://www.2ndstreet.jp/shop/details?shopsId=31145",
+    "mega": false,
+    "lng": 139.539688,
+    "lat": 35.409088,
+    "geo_title": "神奈川県横浜市戸塚区吉田町９３０番地"
   },
   {
     "name": "セカンドストリート 横浜緑園都市店",
@@ -531,7 +607,11 @@
     "parking_fee": "conditional",
     "parking_ease": "ok",
     "parking_note": "タイムズ駐車場46台。レジでの処理で2時間無料(購入なしでも対応)",
-    "parking_source": "https://digginnow.com/%E3%80%90%E5%8F%A4%E7%9D%80%E3%83%87%E3%82%A3%E3%82%B0%E7%8F%BE%E5%9C%B0%E8%AA%BF%E6%9F%BB%E3%80%91%E3%82%BB%E3%82%AB%E3%83%B3%E3%83%89%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E6%A8%AA%E6%B5%9C/"
+    "parking_source": "https://digginnow.com/%E3%80%90%E5%8F%A4%E7%9D%80%E3%83%87%E3%82%A3%E3%82%B0%E7%8F%BE%E5%9C%B0%E8%AA%BF%E6%9F%BB%E3%80%91%E3%82%BB%E3%82%AB%E3%83%B3%E3%83%89%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E6%A8%AA%E6%B5%9C/",
+    "mega": false,
+    "lng": 139.525894,
+    "lat": 35.444881,
+    "geo_title": "神奈川県横浜市泉区緑園五丁目３０番地"
   },
   {
     "name": "セカンドストリート 藤沢六会店",
@@ -557,7 +637,11 @@
     "parking_fee": "free",
     "parking_ease": "ok",
     "parking_note": "店舗駐車場20台(無料)",
-    "parking_source": "https://www.navitime.co.jp/poi?spot=06162-30874"
+    "parking_source": "https://www.navitime.co.jp/poi?spot=06162-30874",
+    "mega": false,
+    "lng": 139.476166,
+    "lat": 35.380432,
+    "geo_title": "神奈川県藤沢市亀井野三丁目２９番"
   },
   {
     "name": "ゼスト横浜戸塚店 Supported by 駿河屋",
@@ -582,6 +666,10 @@
     "parking_fee": null,
     "parking_ease": "none",
     "parking_note": "専用駐車場なし。バス便が中心",
-    "parking_source": "https://www.ekiten.jp/shop_6818576/access/"
+    "parking_source": "https://www.ekiten.jp/shop_6818576/access/",
+    "mega": false,
+    "lng": 139.516449,
+    "lat": 35.385639,
+    "geo_title": "神奈川県横浜市戸塚区汲沢町９２番地"
   }
 ]

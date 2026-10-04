@@ -31,7 +31,11 @@
     "parking_fee": "free",
     "parking_ease": "easy",
     "parking_note": "ショップス市川の無料駐車場696台",
-    "parking_source": "https://www.bookoff.co.jp/shop/shop20505.html"
+    "parking_source": "https://www.bookoff.co.jp/shop/shop20505.html",
+    "mega": true,
+    "lng": 139.93811,
+    "lat": 35.709042,
+    "geo_title": "千葉県市川市鬼高三丁目２８番１６号"
   },
   {
     "name": "BOOKOFF 江東門前仲町店",
@@ -55,7 +59,11 @@
     "parking_fee": null,
     "parking_ease": "none",
     "parking_note": "専用駐車場なし。近隣コインパーキングを利用",
-    "parking_source": "https://www.bookoff.co.jp/shop/shop10486.html"
+    "parking_source": "https://www.bookoff.co.jp/shop/shop10486.html",
+    "mega": false,
+    "lng": 139.792755,
+    "lat": 35.670654,
+    "geo_title": "東京都江東区越中島一丁目２番７号"
   },
   {
     "name": "BOOKOFF 亀戸駅東口店",
@@ -79,7 +87,11 @@
     "parking_fee": null,
     "parking_ease": "none",
     "parking_note": "専用駐車場なし。近隣コインパーキングを利用",
-    "parking_source": "https://www.bookoff.co.jp/shop/shop10687.html"
+    "parking_source": "https://www.bookoff.co.jp/shop/shop10687.html",
+    "mega": false,
+    "lng": 139.829102,
+    "lat": 35.69696,
+    "geo_title": "東京都江東区亀戸六丁目５７番１９号"
   },
   {
     "name": "BOOKOFF 中葛西店",
@@ -103,7 +115,11 @@
     "parking_fee": "free",
     "parking_ease": "easy",
     "parking_note": "びっくりドンキーと共用の駐車場55台(無料)",
-    "parking_source": "https://www.bookoff.co.jp/shop/shop10573.html"
+    "parking_source": "https://www.bookoff.co.jp/shop/shop10573.html",
+    "mega": false,
+    "lng": 139.865494,
+    "lat": 35.666855,
+    "geo_title": "東京都江戸川区中葛西四丁目４番８号"
   },
   {
     "name": "BOOKOFF 葛西駅前店",
@@ -127,7 +143,11 @@
     "parking_fee": null,
     "parking_ease": "none",
     "parking_note": "専用駐車場なし。近隣コインパーキングを利用",
-    "parking_source": "https://www.bookoff.co.jp/shop/shop20172.html"
+    "parking_source": "https://www.bookoff.co.jp/shop/shop20172.html",
+    "mega": false,
+    "lng": 139.872116,
+    "lat": 35.663033,
+    "geo_title": "東京都江戸川区中葛西五丁目３４番１１号"
   },
   {
     "name": "BOOKOFF 浅草稲荷町店",
@@ -151,7 +171,11 @@
     "parking_fee": null,
     "parking_ease": "none",
     "parking_note": "専用駐車場なし。近隣コインパーキングを利用",
-    "parking_source": "https://www.bookoff.co.jp/shop/shop20261.html"
+    "parking_source": "https://www.bookoff.co.jp/shop/shop20261.html",
+    "mega": false,
+    "lng": 139.786072,
+    "lat": 35.710884,
+    "geo_title": "東京都台東区松が谷一丁目３番５号"
   },
   {
     "name": "BOOKOFF 江戸川東小岩店",
@@ -175,7 +199,11 @@
     "parking_fee": "conditional",
     "parking_ease": "ok",
     "parking_note": "ホビーオフ江戸川東小岩店と共用の駐車場20台。購入・買取で60分無料(以降はコインパーキング)",
-    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=202016"
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=202016",
+    "mega": false,
+    "lng": 139.88916,
+    "lat": 35.724739,
+    "geo_title": "東京都江戸川区東小岩四丁目１番７号"
   },
   {
     "name": "ホビーオフ亀戸天神前店",
@@ -200,7 +228,11 @@
     "parking_fee": null,
     "parking_ease": "none",
     "parking_note": "専用駐車場なし。近隣コインパーキングを利用",
-    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=208087"
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=208087",
+    "mega": false,
+    "lng": 139.824768,
+    "lat": 35.701843,
+    "geo_title": "東京都江東区亀戸三丁目６１番２３号"
   },
   {
     "name": "ホビーオフ浅草店",
@@ -225,7 +257,11 @@
     "parking_fee": null,
     "parking_ease": "none",
     "parking_note": "専用駐車場なし。近隣コインパーキングを利用",
-    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=208137"
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=208137",
+    "mega": false,
+    "lng": 139.794647,
+    "lat": 35.716908,
+    "geo_title": "東京都台東区浅草三丁目９番２号"
   },
   {
     "name": "ホビーオフ江戸川東小岩店",
@@ -250,7 +286,11 @@
     "parking_fee": "conditional",
     "parking_ease": "ok",
     "parking_note": "BOOKOFF江戸川東小岩店と共用の駐車場20台。購入・買取で60分無料(以降はコインパーキング)",
-    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=208118"
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=208118",
+    "mega": false,
+    "lng": 139.88916,
+    "lat": 35.724739,
+    "geo_title": "東京都江戸川区東小岩四丁目１番７号"
   },
   {
     "name": "モードオフ小岩フラワーロード商店街店",
@@ -274,7 +314,11 @@
     "parking_fee": null,
     "parking_ease": "none",
     "parking_note": "専用駐車場なし。近隣コインパーキングを利用",
-    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=104019"
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=104019",
+    "mega": false,
+    "lng": 139.881821,
+    "lat": 35.73196,
+    "geo_title": "東京都江戸川区南小岩七丁目２２番６号"
   },
   {
     "name": "ハードオフ錦糸町マルイ店",
@@ -301,7 +345,11 @@
     "parking_fee": "conditional",
     "parking_ease": "ok",
     "parking_note": "錦糸町マルイ地下駐車場84台。2,000円以上購入で1時間、5,000円以上で2時間無料(以降有料)",
-    "parking_source": "https://47parking.net/tokyo/tokyo_marui_kinshicho.html"
+    "parking_source": "https://47parking.net/tokyo/tokyo_marui_kinshicho.html",
+    "mega": false,
+    "lng": 139.813736,
+    "lat": 35.695351,
+    "geo_title": "東京都墨田区江東橋三丁目９番１０号"
   },
   {
     "name": "セカンドストリート 墨田東向島店",
@@ -328,7 +376,11 @@
     "parking_fee": "free",
     "parking_ease": "ok",
     "parking_note": "店舗専用駐車場16台(無料)",
-    "parking_source": "https://www.2ndstreet.jp/shop/details?shopsId=31163"
+    "parking_source": "https://www.2ndstreet.jp/shop/details?shopsId=31163",
+    "mega": false,
+    "lng": 139.824585,
+    "lat": 35.728352,
+    "geo_title": "東京都墨田区東向島五丁目３９番１３号"
   },
   {
     "name": "セカンドストリート オリナス錦糸町店",
@@ -352,7 +404,11 @@
     "parking_fee": "free",
     "parking_ease": "easy",
     "parking_note": "オリナス錦糸町駐車場(約1,000台)。誰でも最初の1時間無料、買い物や映画利用でさらに延長可",
-    "parking_source": "https://47parking.net/tokyo/tokyo_olinas_kinshicho.html"
+    "parking_source": "https://47parking.net/tokyo/tokyo_olinas_kinshicho.html",
+    "mega": false,
+    "lng": 139.814896,
+    "lat": 35.700195,
+    "geo_title": "東京都墨田区太平四丁目１番２号"
   },
   {
     "name": "セカンドストリート 丸井錦糸町店",
@@ -376,7 +432,11 @@
     "parking_fee": "conditional",
     "parking_ease": "ok",
     "parking_note": "錦糸町マルイ地下駐車場84台。2,000円以上購入で1時間、5,000円以上で2時間無料(以降有料)",
-    "parking_source": "https://47parking.net/tokyo/tokyo_marui_kinshicho.html"
+    "parking_source": "https://47parking.net/tokyo/tokyo_marui_kinshicho.html",
+    "mega": false,
+    "lng": 139.813736,
+    "lat": 35.695351,
+    "geo_title": "東京都墨田区江東橋三丁目９番１０号"
   },
   {
     "name": "セカンドストリート カメイドクロック店",
@@ -400,7 +460,11 @@
     "parking_fee": "conditional",
     "parking_ease": "ok",
     "parking_note": "カメイドクロック駐車場300台。施設内での買い物金額に応じて1〜2時間無料(以降有料)",
-    "parking_source": "https://www.kameidoclock.jp/facility/access/"
+    "parking_source": "https://www.kameidoclock.jp/facility/access/",
+    "mega": false,
+    "lng": 139.829208,
+    "lat": 35.696602,
+    "geo_title": "東京都江東区亀戸六丁目３１番６号"
   },
   {
     "name": "セカンドストリート 亀戸店",
@@ -427,7 +491,11 @@
     "parking_fee": null,
     "parking_ease": "none",
     "parking_note": "店舗専用駐車場なし(駐車台数0台)。近隣コインパーキングを利用",
-    "parking_source": "https://www.2ndstreet.jp/shop/details?shopsId=31353"
+    "parking_source": "https://www.2ndstreet.jp/shop/details?shopsId=31353",
+    "mega": false,
+    "lng": 139.825638,
+    "lat": 35.699699,
+    "geo_title": "東京都江東区亀戸五丁目１５番１号"
   },
   {
     "name": "セカンドストリート 上野マルイ店",
@@ -451,7 +519,11 @@
     "parking_fee": "conditional",
     "parking_ease": "hard",
     "parking_note": "専用駐車場なし。上野パーキングセンター等3か所の提携駐車場で2,000円以上購入で1時間無料(都心ビルで入出庫・割引条件ともに手間)",
-    "parking_source": "https://47parking.net/tokyo/tokyo_marui_ueno.html"
+    "parking_source": "https://47parking.net/tokyo/tokyo_marui_ueno.html",
+    "mega": false,
+    "lng": 139.775787,
+    "lat": 35.710232,
+    "geo_title": "東京都台東区上野六丁目１５番１号"
   },
   {
     "name": "セカンドストリート コーナン江戸川船堀店",
@@ -475,7 +547,11 @@
     "parking_fee": "paid",
     "parking_ease": "ok",
     "parking_note": "コーナン江戸川船堀店パーキング288台(有料・時間貸し)。買い物による割引の記載は見当たらず",
-    "parking_source": "https://map.yahoo.co.jp/v3/place/0JFfPGSov3w"
+    "parking_source": "https://map.yahoo.co.jp/v3/place/0JFfPGSov3w",
+    "mega": false,
+    "lng": 139.861282,
+    "lat": 35.686695,
+    "geo_title": "東京都江戸川区船堀一丁目２番２９号"
   },
   {
     "name": "セカンドストリート 江戸川大杉店",
@@ -499,7 +575,11 @@
     "parking_fee": "free",
     "parking_ease": "ok",
     "parking_note": "提携駐車場ナビパーク大杉第6(25台)。店舗と反対側車線(イエローハットの駐車場とは提携なし)",
-    "parking_source": "https://www.2ndstreet.jp/shop/details?shopsId=31641"
+    "parking_source": "https://www.2ndstreet.jp/shop/details?shopsId=31641",
+    "mega": false,
+    "lng": 139.880692,
+    "lat": 35.706528,
+    "geo_title": "東京都江戸川区大杉三丁目１０番１号"
   },
   {
     "name": "トレファクスタイル 亀戸1号店",
@@ -523,7 +603,11 @@
     "parking_fee": "conditional",
     "parking_ease": "ok",
     "parking_note": "提携駐車場(タイムズ亀戸第3・第21)。買取成立で最大1時間分の駐車券",
-    "parking_source": "https://www.tf-style.com/shop/489/topics/386719/"
+    "parking_source": "https://www.tf-style.com/shop/489/topics/386719/",
+    "mega": false,
+    "lng": 139.826172,
+    "lat": 35.695965,
+    "geo_title": "東京都江東区亀戸六丁目２５番５号"
   },
   {
     "name": "トレファクスタイル 亀戸2号店",
@@ -547,7 +631,11 @@
     "parking_fee": "conditional",
     "parking_ease": "ok",
     "parking_note": "提携駐車場(タイムズ亀戸第5・亀戸2丁目第3)。買取成立で最大1時間分の駐車券",
-    "parking_source": "https://www.tf-style.com/shop/398/topics/384809/"
+    "parking_source": "https://www.tf-style.com/shop/398/topics/384809/",
+    "mega": false,
+    "lng": 139.825302,
+    "lat": 35.700699,
+    "geo_title": "東京都江東区亀戸二丁目３７番１１号"
   },
   {
     "name": "トレファクスタイル 南砂町スナモ店",
@@ -571,7 +659,11 @@
     "parking_fee": "free",
     "parking_ease": "easy",
     "parking_note": "SUNAMO共用駐車場1,240台。購入にかかわらず3時間無料(火曜は5時間)",
-    "parking_source": "https://47parking.net/tokyo/tokyo_sunamo.html"
+    "parking_source": "https://47parking.net/tokyo/tokyo_sunamo.html",
+    "mega": false,
+    "lng": 139.834488,
+    "lat": 35.665485,
+    "geo_title": "東京都江東区新砂三丁目４番３１号"
   },
   {
     "name": "トレファクスタイル 瑞江店",
@@ -595,7 +687,11 @@
     "parking_fee": null,
     "parking_ease": "none",
     "parking_note": "専用駐車場なし。近隣コインパーキングを利用",
-    "parking_source": "https://www.tf-style.com/shop/324/"
+    "parking_source": "https://www.tf-style.com/shop/324/",
+    "mega": false,
+    "lng": 139.900192,
+    "lat": 35.693768,
+    "geo_title": "東京都江戸川区南篠崎町三丁目３番１号"
   },
   {
     "name": "トレファクスタイル 葛西店",
@@ -619,7 +715,11 @@
     "parking_fee": "conditional",
     "parking_ease": "ok",
     "parking_note": "提携駐車場パーククリエイト東葛西5丁目。買取成立または5,000円以上購入で最大1時間分の駐車サービス券",
-    "parking_source": "https://www.tf-style.com/shop/60/map.html"
+    "parking_source": "https://www.tf-style.com/shop/60/map.html",
+    "mega": false,
+    "lng": 139.873413,
+    "lat": 35.664387,
+    "geo_title": "東京都江戸川区東葛西五丁目１番５号"
   },
   {
     "name": "ユーズレット 平井店",
@@ -643,7 +743,11 @@
     "parking_fee": null,
     "parking_ease": "none",
     "parking_note": "専用駐車場なし。駅徒歩3分",
-    "parking_source": "https://www.tf-style.com/shop/191/"
+    "parking_source": "https://www.tf-style.com/shop/191/",
+    "mega": false,
+    "lng": 139.844421,
+    "lat": 35.705357,
+    "geo_title": "東京都江戸川区平井三丁目２３番１９号"
   },
   {
     "name": "大型総合リサイクルショップ 愛品館江戸川店",
@@ -671,7 +775,11 @@
     "parking_fee": null,
     "parking_ease": null,
     "parking_note": "情報源により「駐車場なし」「駐車場あり」の記載が分かれ特定できず(要確認)",
-    "parking_source": "https://www.aihin.co.jp/edogawa/map_edogawa/"
+    "parking_source": "https://www.aihin.co.jp/edogawa/map_edogawa/",
+    "mega": false,
+    "lng": 139.892197,
+    "lat": 35.702019,
+    "geo_title": "東京都江戸川区春江町一丁目１番１８号"
   },
   {
     "name": "たんぽぽハウス 門前仲町店",
@@ -695,6 +803,10 @@
     "parking_fee": null,
     "parking_ease": "none",
     "parking_note": "専用駐車場なし。門前仲町駅6番出口徒歩1分",
-    "parking_source": "http://www.haneq.co.jp/15808898589643"
+    "parking_source": "http://www.haneq.co.jp/15808898589643",
+    "mega": false,
+    "lng": 139.796783,
+    "lat": 35.673332,
+    "geo_title": "東京都江東区門前仲町二丁目１１番６号"
   }
 ]
