@@ -82,32 +82,6 @@
     "parking_source": "https://www.bookoff.co.jp/shop/shop10687.html"
   },
   {
-    "name": "Rehello by BOOKOFF 清澄白河店",
-    "chain": "BOOKOFF",
-    "area": "monnaka",
-    "address": "東京都江東区白河3-4-3 イーストコモンズ清澄白河フロントタワー1F",
-    "nearest": "東京メトロ半蔵門線 清澄白河駅B2出口徒歩3分／都営大江戸線A3出口徒歩5分",
-    "categories": [
-      "本",
-      "服",
-      "家電"
-    ],
-    "fashion_only": false,
-    "super_bazaar": false,
-    "large": false,
-    "size": "1F小型店舗",
-    "highlight": "BOOKOFFグループの新業態「Rehello」。本以外に服・雑貨・小型家電も扱う小型複合店。",
-    "hours": "10:30～19:00",
-    "source": "https://www.bookoff.co.jp/shop/shop80128.html",
-    "confidence": "high",
-    "parking": "no",
-    "parking_count": null,
-    "parking_fee": null,
-    "parking_ease": "none",
-    "parking_note": "専用駐車場なし(タワー内店舗)。近隣コインパーキングを利用",
-    "parking_source": "https://www.bookoff.co.jp/shop/shop80128.html"
-  },
-  {
     "name": "BOOKOFF 中葛西店",
     "chain": "BOOKOFF",
     "area": "monnaka",
