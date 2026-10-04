@@ -22,6 +22,7 @@
   .card.fa { opacity: .7; }
   .name { font-weight: 600; font-size: 15px; }
   .badge { display: inline-block; font-size: 11px; padding: 1px 6px; border-radius: 4px; margin-left: 4px; vertical-align: 1px; }
+  .b-p-easy { background: #cfeccf; } .b-p-ok { background: #e6f0c8; } .b-p-hard { background: #f6e3c6; } .b-p-none { background: #eee; color: #777; }
   .b-sb { background: #ffe9b0; } .b-lg { background: #d6e6ff; } .b-fa { background: #f3d6e8; } .b-low { background: #eee; color: #a00; }
   .meta { font-size: 12px; color: #555; margin-top: 3px; }
   .hl { font-size: 13px; margin-top: 5px; }
@@ -35,6 +36,7 @@
   <div class="row">
     <label><input type="checkbox" id="fashion"> ファッション専門店も表示</label>
     <label><input type="checkbox" id="pick"> SB・大型・特徴ありだけ</label>
+    <label><input type="checkbox" id="car"> 🅿 車で行ける店だけ</label>
   </div>
   <div class="row">
     <input type="search" id="q" placeholder="店名・品目で絞る(例: 楽器、古道具)">
@@ -51,6 +53,7 @@ const AREAS = { all: "すべて", monnaka: "門前仲町", ofuna: "大船", yuga
 let area = "all";
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const PARK = { easy: "🅿◎ 停めやすい", ok: "🅿○ 駐車場あり", hard: "🅿△ 停めにくい", none: "🅿✕ 駐車場なし" };
 const score = (s) => (s.super_bazaar ? 4 : 0) + (s.large ? 2 : 0) + (s.highlight ? 1 : 0);
 
 function render() {
@@ -60,6 +63,7 @@ function render() {
     (area === "all" || s.area === area) &&
     (showFashion || !s.fashion_only) &&
     (!pickOnly || score(s) > 0) &&
+    (!$("car").checked || s.parking_ease === "easy" || s.parking_ease === "ok") &&
     (!q || [s.name, s.chain, s.address, s.highlight, (s.categories || []).join(" ")].join(" ").toLowerCase().includes(q)));
   $("count").textContent = `${hit.length}件 / 全${SHOPS.length}件`;
   const groups = Object.keys(AREAS).filter((a) => a !== "all" && (area === "all" || area === a));
@@ -76,6 +80,7 @@ function render() {
         </div>
         <div class="meta">${esc((s.categories || []).join("・"))}${s.size ? " / " + esc(s.size) : ""}</div>
         ${s.highlight ? `<div class="hl">${esc(s.highlight)}</div>` : ""}
+        ${s.parking_ease || s.parking_note ? `<div class="meta">${s.parking_ease ? `<span class="badge b-p-${s.parking_ease}" style="margin-left:0">${PARK[s.parking_ease]}</span> ` : "🅿 "}${esc(s.parking_note)}</div>` : ""}
         <div class="meta">${esc(s.nearest)} ・ ${esc(s.hours)}</div>
         <div class="meta"><a href="https://www.google.com/maps/search/${encodeURIComponent(s.name + " " + s.address)}" target="_blank">地図</a>
           ${s.source ? ` ・ <a href="${esc(s.source)}" target="_blank">出典</a>` : ""} ・ ${esc(s.address)}</div>
@@ -90,7 +95,7 @@ $("tabs").onclick = (e) => {
   document.querySelectorAll(".tab").forEach((b) => b.classList.toggle("on", b.dataset.a === a));
   render();
 };
-["fashion", "pick", "q"].forEach((id) => $(id).addEventListener("input", render));
+["fashion", "pick", "car", "q"].forEach((id) => $(id).addEventListener("input", render));
 render();
 </script>
 </body>

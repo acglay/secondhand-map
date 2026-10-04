@@ -25,7 +25,13 @@
     "highlight": "本から楽器・家具・ブランド品まで揃う総合大型店。トレカ無料対戦スペース最大64席。",
     "hours": "10:00〜21:00",
     "source": "https://www.bookoff.co.jp/shop/shop20505.html",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 696,
+    "parking_fee": "free",
+    "parking_ease": "easy",
+    "parking_note": "ショップス市川の無料駐車場696台",
+    "parking_source": "https://www.bookoff.co.jp/shop/shop20505.html"
   },
   {
     "name": "BOOKOFF 江東門前仲町店",
@@ -43,7 +49,13 @@
     "highlight": "門仲駅から最も近いBOOKOFF。小型店舗のため品揃えは標準的な古本中心。",
     "hours": "10:00～21:00",
     "source": "https://www.bookoff.co.jp/shop/shop10486.html",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "no",
+    "parking_count": null,
+    "parking_fee": null,
+    "parking_ease": "none",
+    "parking_note": "専用駐車場なし。近隣コインパーキングを利用",
+    "parking_source": "https://www.bookoff.co.jp/shop/shop10486.html"
   },
   {
     "name": "BOOKOFF 亀戸駅東口店",
@@ -61,7 +73,13 @@
     "highlight": "",
     "hours": "10:00～22:00",
     "source": "https://www.bookoff.co.jp/shop/shop10687.html",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "no",
+    "parking_count": null,
+    "parking_fee": null,
+    "parking_ease": "none",
+    "parking_note": "専用駐車場なし。近隣コインパーキングを利用",
+    "parking_source": "https://www.bookoff.co.jp/shop/shop10687.html"
   },
   {
     "name": "Rehello by BOOKOFF 清澄白河店",
@@ -81,7 +99,13 @@
     "highlight": "BOOKOFFグループの新業態「Rehello」。本以外に服・雑貨・小型家電も扱う小型複合店。",
     "hours": "10:30～19:00",
     "source": "https://www.bookoff.co.jp/shop/shop80128.html",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "no",
+    "parking_count": null,
+    "parking_fee": null,
+    "parking_ease": "none",
+    "parking_note": "専用駐車場なし(タワー内店舗)。近隣コインパーキングを利用",
+    "parking_source": "https://www.bookoff.co.jp/shop/shop80128.html"
   },
   {
     "name": "BOOKOFF 中葛西店",
@@ -99,7 +123,13 @@
     "highlight": "",
     "hours": "10:00～21:00",
     "source": "https://www.bookoff.co.jp/shop/shop10573.html",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 55,
+    "parking_fee": "free",
+    "parking_ease": "easy",
+    "parking_note": "びっくりドンキーと共用の駐車場55台(無料)",
+    "parking_source": "https://www.bookoff.co.jp/shop/shop10573.html"
   },
   {
     "name": "BOOKOFF 葛西駅前店",
@@ -117,7 +147,13 @@
     "highlight": "",
     "hours": "10:00～22:00",
     "source": "https://www.bookoff.co.jp/shop/shop20172.html",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "no",
+    "parking_count": null,
+    "parking_fee": null,
+    "parking_ease": "none",
+    "parking_note": "専用駐車場なし。近隣コインパーキングを利用",
+    "parking_source": "https://www.bookoff.co.jp/shop/shop20172.html"
   },
   {
     "name": "BOOKOFF 浅草稲荷町店",
@@ -135,7 +171,13 @@
     "highlight": "B1〜1Fの2フロア構成で浅草エリアでは比較的大きめ。",
     "hours": "10:00～23:00",
     "source": "https://www.bookoff.co.jp/shop/pref-list/13.html",
-    "confidence": "medium"
+    "confidence": "medium",
+    "parking": "no",
+    "parking_count": null,
+    "parking_fee": null,
+    "parking_ease": "none",
+    "parking_note": "専用駐車場なし。近隣コインパーキングを利用",
+    "parking_source": "https://www.bookoff.co.jp/shop/shop20261.html"
   },
   {
     "name": "BOOKOFF 江戸川東小岩店",
@@ -153,7 +195,13 @@
     "highlight": "ホビーオフ江戸川東小岩店と同一施設内（複合店舗）。",
     "hours": "10:00～20:00",
     "source": "https://www.bookoff.co.jp/shop/shop10646.html",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 20,
+    "parking_fee": "conditional",
+    "parking_ease": "ok",
+    "parking_note": "ホビーオフ江戸川東小岩店と共用の駐車場20台。購入・買取で60分無料(以降はコインパーキング)",
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=202016"
   },
   {
     "name": "ホビーオフ亀戸天神前店",
@@ -172,7 +220,13 @@
     "highlight": "ゲーム機・トレカ・フィギュア・プラモデル・ラジコン・鉄道模型・ガン/ミリタリーなどホビー全般に特化。",
     "hours": "10:30～20:00",
     "source": "https://www.hardoff.co.jp/shop/detail/?p=208087",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "no",
+    "parking_count": null,
+    "parking_fee": null,
+    "parking_ease": "none",
+    "parking_note": "専用駐車場なし。近隣コインパーキングを利用",
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=208087"
   },
   {
     "name": "ホビーオフ浅草店",
@@ -191,7 +245,13 @@
     "highlight": "フィギュア・ミニカー・鉄道模型・ガン・特撮玩具・年代物玩具・プラモデル・ゲームなど幅広いホビー専門店。",
     "hours": "10:30～20:00",
     "source": "https://www.hardoff.co.jp/shop/detail/?p=208137",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "no",
+    "parking_count": null,
+    "parking_fee": null,
+    "parking_ease": "none",
+    "parking_note": "専用駐車場なし。近隣コインパーキングを利用",
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=208137"
   },
   {
     "name": "ホビーオフ江戸川東小岩店",
@@ -210,7 +270,13 @@
     "highlight": "BOOKOFF江戸川東小岩店と同一施設の複合店。駐車場20台と郊外型で比較的広め。",
     "hours": "10:00～20:00",
     "source": "https://www.hardoff.co.jp/shop/detail/?p=208118",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 20,
+    "parking_fee": "conditional",
+    "parking_ease": "ok",
+    "parking_note": "BOOKOFF江戸川東小岩店と共用の駐車場20台。購入・買取で60分無料(以降はコインパーキング)",
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=208118"
   },
   {
     "name": "モードオフ小岩フラワーロード商店街店",
@@ -228,7 +294,13 @@
     "highlight": "レディース・メンズ衣類に加えブランドバッグ・腕時計・サングラス・貴金属も扱うファッション専門店。",
     "hours": "10:00～21:00",
     "source": "https://www.hardoff.co.jp/shop/detail/?p=104019",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "no",
+    "parking_count": null,
+    "parking_fee": null,
+    "parking_ease": "none",
+    "parking_note": "専用駐車場なし。近隣コインパーキングを利用",
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=104019"
   },
   {
     "name": "ハードオフ錦糸町マルイ店",
@@ -249,7 +321,13 @@
     "highlight": "錦糸町マルイ5階に入る都市型ハードオフ。",
     "hours": "10:30～20:00",
     "source": "https://www.hardoff.co.jp/shop/detail/?p=101131",
-    "confidence": "medium"
+    "confidence": "medium",
+    "parking": "yes",
+    "parking_count": 84,
+    "parking_fee": "conditional",
+    "parking_ease": "ok",
+    "parking_note": "錦糸町マルイ地下駐車場84台。2,000円以上購入で1時間、5,000円以上で2時間無料(以降有料)",
+    "parking_source": "https://47parking.net/tokyo/tokyo_marui_kinshicho.html"
   },
   {
     "name": "セカンドストリート 墨田東向島店",
@@ -270,7 +348,13 @@
     "highlight": "服・家具・家電まで扱う標準的な総合セカンドストリート。",
     "hours": "10:00～21:00",
     "source": "https://www.2ndstreet.jp/shop/details?shopsId=31163",
-    "confidence": "medium"
+    "confidence": "medium",
+    "parking": "yes",
+    "parking_count": 16,
+    "parking_fee": "free",
+    "parking_ease": "ok",
+    "parking_note": "店舗専用駐車場16台(無料)",
+    "parking_source": "https://www.2ndstreet.jp/shop/details?shopsId=31163"
   },
   {
     "name": "セカンドストリート オリナス錦糸町店",
@@ -288,7 +372,13 @@
     "highlight": "アパレル特化のリユースショップ。洋服・バッグ・靴中心。",
     "hours": "10:00～21:00",
     "source": "https://www.2ndstreet.jp/shop/details?shopsId=31794",
-    "confidence": "medium"
+    "confidence": "medium",
+    "parking": "yes",
+    "parking_count": 1000,
+    "parking_fee": "free",
+    "parking_ease": "easy",
+    "parking_note": "オリナス錦糸町駐車場(約1,000台)。誰でも最初の1時間無料、買い物や映画利用でさらに延長可",
+    "parking_source": "https://47parking.net/tokyo/tokyo_olinas_kinshicho.html"
   },
   {
     "name": "セカンドストリート 丸井錦糸町店",
@@ -306,7 +396,13 @@
     "highlight": "「洋服が多い・商品の種類が豊富」と評判。ハードオフ錦糸町マルイ店と同じ5階に併設。",
     "hours": "",
     "source": "https://www.2ndstreet.jp/shop/details?shopsId=31503",
-    "confidence": "medium"
+    "confidence": "medium",
+    "parking": "yes",
+    "parking_count": 84,
+    "parking_fee": "conditional",
+    "parking_ease": "ok",
+    "parking_note": "錦糸町マルイ地下駐車場84台。2,000円以上購入で1時間、5,000円以上で2時間無料(以降有料)",
+    "parking_source": "https://47parking.net/tokyo/tokyo_marui_kinshicho.html"
   },
   {
     "name": "セカンドストリート カメイドクロック店",
@@ -324,7 +420,13 @@
     "highlight": "ブランド古着を中心にバイヤーが厳選した都市型セレクトショップ業態。",
     "hours": "10:00～21:00",
     "source": "https://www.2ndstreet.jp/shop/details?shopsId=31748",
-    "confidence": "medium"
+    "confidence": "medium",
+    "parking": "yes",
+    "parking_count": 300,
+    "parking_fee": "conditional",
+    "parking_ease": "ok",
+    "parking_note": "カメイドクロック駐車場300台。施設内での買い物金額に応じて1〜2時間無料(以降有料)",
+    "parking_source": "https://www.kameidoclock.jp/facility/access/"
   },
   {
     "name": "セカンドストリート 亀戸店",
@@ -345,7 +447,13 @@
     "highlight": "服・家具・家電まで扱う標準的な総合店。",
     "hours": "10:00-21:00",
     "source": "https://www.2ndstreet.jp/shop/details?shopsId=31353",
-    "confidence": "medium"
+    "confidence": "medium",
+    "parking": "no",
+    "parking_count": 0,
+    "parking_fee": null,
+    "parking_ease": "none",
+    "parking_note": "店舗専用駐車場なし(駐車台数0台)。近隣コインパーキングを利用",
+    "parking_source": "https://www.2ndstreet.jp/shop/details?shopsId=31353"
   },
   {
     "name": "セカンドストリート 上野マルイ店",
@@ -363,7 +471,13 @@
     "highlight": "ブランド古着中心のセレクトショップ業態。",
     "hours": "11:00～20:00（買取受付11:00～19:30）",
     "source": "https://www.2ndstreet.jp/shop/details?shopsId=32193",
-    "confidence": "medium"
+    "confidence": "medium",
+    "parking": "yes",
+    "parking_count": null,
+    "parking_fee": "conditional",
+    "parking_ease": "hard",
+    "parking_note": "専用駐車場なし。上野パーキングセンター等3か所の提携駐車場で2,000円以上購入で1時間無料(都心ビルで入出庫・割引条件ともに手間)",
+    "parking_source": "https://47parking.net/tokyo/tokyo_marui_ueno.html"
   },
   {
     "name": "セカンドストリート コーナン江戸川船堀店",
@@ -381,7 +495,13 @@
     "highlight": "ホームセンターコーナン内テナント。アパレル関連アイテムが中心。",
     "hours": "10:00-21:00（買取受付10:00-20:30）",
     "source": "https://www.2ndstreet.jp/shop/details?shopsId=32112",
-    "confidence": "medium"
+    "confidence": "medium",
+    "parking": "yes",
+    "parking_count": 288,
+    "parking_fee": "paid",
+    "parking_ease": "ok",
+    "parking_note": "コーナン江戸川船堀店パーキング288台(有料・時間貸し)。買い物による割引の記載は見当たらず",
+    "parking_source": "https://map.yahoo.co.jp/v3/place/0JFfPGSov3w"
   },
   {
     "name": "セカンドストリート 江戸川大杉店",
@@ -399,7 +519,13 @@
     "highlight": "セカンドストリートとゲオモバイルの併設1号店。レディース/メンズ/キッズ衣類・ラグジュアリーブランド・貴金属中心。",
     "hours": "10:00～21:00（買取受付10:00～20:30）",
     "source": "https://www.2ndstreet.jp/shop/details?shopsId=31641",
-    "confidence": "medium"
+    "confidence": "medium",
+    "parking": "yes",
+    "parking_count": 25,
+    "parking_fee": "free",
+    "parking_ease": "ok",
+    "parking_note": "提携駐車場ナビパーク大杉第6(25台)。店舗と反対側車線(イエローハットの駐車場とは提携なし)",
+    "parking_source": "https://www.2ndstreet.jp/shop/details?shopsId=31641"
   },
   {
     "name": "トレファクスタイル 亀戸1号店",
@@ -417,7 +543,13 @@
     "highlight": "メンズ・ラグジュアリーブランド中心のファッションリユース店。",
     "hours": "平日11:00～21:00／土日祝10:00～21:00",
     "source": "https://www.tf-style.com/shop/489/",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": null,
+    "parking_fee": "conditional",
+    "parking_ease": "ok",
+    "parking_note": "提携駐車場(タイムズ亀戸第3・第21)。買取成立で最大1時間分の駐車券",
+    "parking_source": "https://www.tf-style.com/shop/489/topics/386719/"
   },
   {
     "name": "トレファクスタイル 亀戸2号店",
@@ -435,7 +567,13 @@
     "highlight": "王道ブランド・スポーツ・アウトドアブランド中心。1号店と2軒で品揃えを分けている。",
     "hours": "10:00～21:00",
     "source": "https://www.tf-style.com/shop/398/",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": null,
+    "parking_fee": "conditional",
+    "parking_ease": "ok",
+    "parking_note": "提携駐車場(タイムズ亀戸第5・亀戸2丁目第3)。買取成立で最大1時間分の駐車券",
+    "parking_source": "https://www.tf-style.com/shop/398/topics/384809/"
   },
   {
     "name": "トレファクスタイル 南砂町スナモ店",
@@ -453,7 +591,13 @@
     "highlight": "大型モールSUNAMO内のファッションリユース専門店。",
     "hours": "10:00～21:00（買取受付10:00～20:00）",
     "source": "https://www.tf-style.com/shop/619/",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 1240,
+    "parking_fee": "free",
+    "parking_ease": "easy",
+    "parking_note": "SUNAMO共用駐車場1,240台。購入にかかわらず3時間無料(火曜は5時間)",
+    "parking_source": "https://47parking.net/tokyo/tokyo_sunamo.html"
   },
   {
     "name": "トレファクスタイル 瑞江店",
@@ -471,7 +615,13 @@
     "highlight": "",
     "hours": "11:00～20:00（買取受付11:00～19:00）",
     "source": "https://www.tf-style.com/shop/324/",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "no",
+    "parking_count": null,
+    "parking_fee": null,
+    "parking_ease": "none",
+    "parking_note": "専用駐車場なし。近隣コインパーキングを利用",
+    "parking_source": "https://www.tf-style.com/shop/324/"
   },
   {
     "name": "トレファクスタイル 葛西店",
@@ -489,7 +639,13 @@
     "highlight": "葛西駅前の2階建て大型店。2階はブランド品中心。",
     "hours": "10:00～21:00",
     "source": "https://www.tf-style.com/shop/60/",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": null,
+    "parking_fee": "conditional",
+    "parking_ease": "ok",
+    "parking_note": "提携駐車場パーククリエイト東葛西5丁目。買取成立または5,000円以上購入で最大1時間分の駐車サービス券",
+    "parking_source": "https://www.tf-style.com/shop/60/map.html"
   },
   {
     "name": "ユーズレット 平井店",
@@ -507,7 +663,13 @@
     "highlight": "古着のアウトレット販売専門（買取は行わず販売のみ）。",
     "hours": "10:00～20:00",
     "source": "https://www.tf-style.com/shop/191/",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "no",
+    "parking_count": null,
+    "parking_fee": null,
+    "parking_ease": "none",
+    "parking_note": "専用駐車場なし。駅徒歩3分",
+    "parking_source": "https://www.tf-style.com/shop/191/"
   },
   {
     "name": "大型総合リサイクルショップ 愛品館江戸川店",
@@ -529,7 +691,13 @@
     "highlight": "家具・家電から日用品・趣味の物まで幅広く扱う大型総合リサイクルショップ。江戸川区・葛飾区・江東区・墨田区等の出張買取にも対応。",
     "hours": "10:00～19:00",
     "source": "https://www.aihin.co.jp/edogawa/",
-    "confidence": "medium"
+    "confidence": "medium",
+    "parking": "unknown",
+    "parking_count": null,
+    "parking_fee": null,
+    "parking_ease": null,
+    "parking_note": "情報源により「駐車場なし」「駐車場あり」の記載が分かれ特定できず(要確認)",
+    "parking_source": "https://www.aihin.co.jp/edogawa/map_edogawa/"
   },
   {
     "name": "たんぽぽハウス 門前仲町店",
@@ -547,6 +715,12 @@
     "highlight": "門仲駅から徒歩1分の個人古着店。子供服から年配向け・男性ものまで品数がとにかく多いと評判。",
     "hours": "10:00～20:00",
     "source": "http://www.haneq.co.jp/15808898589643",
-    "confidence": "low"
+    "confidence": "low",
+    "parking": "no",
+    "parking_count": null,
+    "parking_fee": null,
+    "parking_ease": "none",
+    "parking_note": "専用駐車場なし。門前仲町駅6番出口徒歩1分",
+    "parking_source": "http://www.haneq.co.jp/15808898589643"
   }
 ]

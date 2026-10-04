@@ -16,7 +16,13 @@
     "highlight": "",
     "hours": "10:00〜21:00",
     "source": "https://www.bookoff.co.jp/shop/shop10535.html",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 58,
+    "parking_fee": "free",
+    "parking_ease": "easy",
+    "parking_note": "店舗駐車場58台(無料、同チェーン通常店舗の標準パターン)",
+    "parking_source": "https://www.bookoff.co.jp/shop/shop10535.html"
   },
   {
     "name": "モードオフ小田原ダイヤ街店",
@@ -34,7 +40,13 @@
     "highlight": "レディース・メンズ衣料に加え、ハイブランド(ルイ・ヴィトン、シャネル、プラダ等)・腕時計・ジュエリーも扱うファッション専門店。",
     "hours": "10:00〜20:00(12/31は10:00〜17:00、1/1は12:00〜20:00)",
     "source": "https://www.hardoff.co.jp/shop/detail/?p=104030",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "no",
+    "parking_count": null,
+    "parking_fee": null,
+    "parking_ease": "none",
+    "parking_note": "専用駐車場なし(地下1階店舗)。近隣コインパーキングを利用",
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=104030"
   },
   {
     "name": "ホビーオフ小田原ダイヤ街店",
@@ -53,7 +65,13 @@
     "highlight": "トレーディングカード・おもちゃ・フィギュア・プラモデル・ミニカー・ゲームソフト・鉄道模型・ラジコンまでホビー全般を広く扱う。",
     "hours": "10:00〜20:00",
     "source": "https://www.hardoff.co.jp/shop/detail/?p=108040",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "no",
+    "parking_count": null,
+    "parking_fee": null,
+    "parking_ease": "none",
+    "parking_note": "専用駐車場なし(地下1階店舗)。近隣コインパーキングを利用",
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=108040"
   },
   {
     "name": "ハードオフ小田原鴨宮店",
@@ -74,7 +92,13 @@
     "highlight": "オーディオルームをコンセプトにしたセレクションコーナーがあり、ゲームソフト・DVDの品揃えが豊富。",
     "hours": "10:00〜20:00(年中無休)",
     "source": "https://www.hardoff.co.jp/shop/detail/?p=101030",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 44,
+    "parking_fee": "free",
+    "parking_ease": "easy",
+    "parking_note": "店舗駐車場44台(無料)。ホビーオフと共用",
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=101030"
   },
   {
     "name": "ホビーオフ小田原鴨宮店",
@@ -93,7 +117,13 @@
     "highlight": "トレカ・フィギュア・プラモデル・ガン/ミリタリーグッズまでホビー全般。",
     "hours": "10:00〜20:00(年中無休)",
     "source": "https://www.hardoff.co.jp/shop/detail/?p=108004",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 44,
+    "parking_fee": "free",
+    "parking_ease": "easy",
+    "parking_note": "ハードオフと共用の駐車場44台(無料)",
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=108004"
   },
   {
     "name": "オフハウス小田原鴨宮シティーモール店",
@@ -113,7 +143,13 @@
     "highlight": "家具・家電・ブランド品・金プラチナジュエリー・スポーツ/キャンプ用品・工具まで幅広く扱う。",
     "hours": "10:00〜20:00",
     "source": "https://www.hardoff.co.jp/shop/detail/?p=103063",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 2500,
+    "parking_fee": "free",
+    "parking_ease": "easy",
+    "parking_note": "フレスポ小田原シティーモール駐車場2,500台(無料、南館1,500+北館1,000)",
+    "parking_source": "https://www.e-frespo.com/odawara/shop/access.jsp"
   },
   {
     "name": "ガレージオフ 小田原鴨宮シティーモール店",
@@ -131,7 +167,13 @@
     "highlight": "タイヤ・ホイール・カーオーディオ・電動工具など車/バイク関連の買取販売に特化。",
     "hours": "10:00〜20:00",
     "source": "https://tokubai.co.jp/%E3%82%AC%E3%83%AC%E3%83%BC%E3%82%B8%E3%82%AA%E3%83%95/167237",
-    "confidence": "medium"
+    "confidence": "medium",
+    "parking": "yes",
+    "parking_count": 2500,
+    "parking_fee": "free",
+    "parking_ease": "easy",
+    "parking_note": "フレスポ小田原シティーモール駐車場2,500台(無料、南館1,500+北館1,000)",
+    "parking_source": "https://www.e-frespo.com/odawara/shop/access.jsp"
   },
   {
     "name": "トレジャーファクトリー小田原店",
@@ -152,7 +194,13 @@
     "highlight": "大型家具・家電からブランド品、酒、楽器、おもちゃ・ホビーまで幅広く扱う総合リユース店。軽トラ無料貸出サービスあり。",
     "hours": "平日11:00〜20:00/土日祝10:00〜20:00",
     "source": "https://www.treasure-f.com/shop/417/",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 28,
+    "parking_fee": "free",
+    "parking_ease": "ok",
+    "parking_note": "専用駐車場28台。公式な料金記載はないが同チェーン標準店舗は無料が基本(要最終確認)",
+    "parking_source": "https://www.treasure-f.com/shop/417/"
   },
   {
     "name": "セカンドストリート 小田原扇町店",
@@ -173,7 +221,13 @@
     "highlight": "洋服・服飾雑貨から家具・家電・楽器・アウトドア用品・キッズ用品まで扱う総合リユース店。",
     "hours": "10:00〜20:00(買取受付10:00〜19:30)",
     "source": "https://www.2ndstreet.jp/shop/details?shopsId=31426",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 23,
+    "parking_fee": null,
+    "parking_ease": null,
+    "parking_note": "駐車場23台(専用)。無料/有料の公式記載が見当たらず未確定(要確認)",
+    "parking_source": "https://www.2ndstreet.jp/shop/details?shopsId=31426"
   },
   {
     "name": "BOOKOFF 函南店",
@@ -192,7 +246,13 @@
     "highlight": "",
     "hours": "10:00〜22:00",
     "source": "https://www.bookoff.co.jp/shop/shop10074.html",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 40,
+    "parking_fee": "free",
+    "parking_ease": "easy",
+    "parking_note": "店舗駐車場40台(無料、同チェーン通常店舗の標準パターン)",
+    "parking_source": "https://www.bookoff.co.jp/shop/shop10074.html"
   },
   {
     "name": "リサイクルの店 やまと",
@@ -212,7 +272,13 @@
     "highlight": "家電・家具から貴金属・骨董品(絵画・掛軸・置物)まで扱う湯河原地元の総合リサイクル店。湯河原・小田原・熱海・真鶴へ出張買取対応。",
     "hours": "受付9:00〜15:00/店舗営業8:30〜16:00(定休日:日曜、臨時休業あり)",
     "source": "https://www.navida.ne.jp/snavi/100603_1.html",
-    "confidence": "medium"
+    "confidence": "medium",
+    "parking": "yes",
+    "parking_count": 1,
+    "parking_fee": "free",
+    "parking_ease": "hard",
+    "parking_note": "駐車場1台のみ",
+    "parking_source": "https://www.navida.ne.jp/snavi/100603_1.html"
   },
   {
     "name": "総合リサイクル リュースエコタン小田原店",
@@ -231,7 +297,13 @@
     "highlight": "",
     "hours": "9:00〜22:00",
     "source": "https://www.ekiten.jp/g0521/a14206/",
-    "confidence": "medium"
+    "confidence": "medium",
+    "parking": "no",
+    "parking_count": null,
+    "parking_fee": null,
+    "parking_ease": "none",
+    "parking_note": "専用駐車場なし",
+    "parking_source": "https://www.ekiten.jp/shop_38680551/"
   },
   {
     "name": "リサイクルフジシロ小田原店",
@@ -251,6 +323,12 @@
     "highlight": "家具・家電・雑貨・衣類・アウトドア用品まで扱う大型店舗(約300坪)。",
     "hours": "10:00〜19:00",
     "source": "https://www.recycle-fujishiro.com/odawara/",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": null,
+    "parking_fee": "free",
+    "parking_ease": "easy",
+    "parking_note": "国道255号沿いの無料駐車場あり(台数の公式記載なし、300坪は売場面積)",
+    "parking_source": "https://www.recycle-fujishiro.com/odawara/"
   }
 ]

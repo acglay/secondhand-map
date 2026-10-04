@@ -5,7 +5,15 @@
     "area": "ofuna",
     "address": "神奈川県鎌倉市大船6-1-1",
     "nearest": "JR大船駅笠間口(北口)から徒歩8分",
-    "categories": ["本", "ゲーム", "ホビー", "家電", "服", "楽器", "家具"],
+    "categories": [
+      "本",
+      "ゲーム",
+      "ホビー",
+      "家電",
+      "服",
+      "楽器",
+      "家具"
+    ],
     "fashion_only": false,
     "super_bazaar": true,
     "large": true,
@@ -13,7 +21,13 @@
     "highlight": "本・ゲーム・ホビー・家電・ハイブランド・貴金属・家具まで揃う大船駅前最大級の複合リユース店",
     "hours": "10:00〜21:00(本・ホビー・家電・キッズ・アパレル・スポーツ)、10:00〜20:00(ハイブランド売場)",
     "source": "https://www.bookoff.co.jp/shop/shop20421.html",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 622,
+    "parking_fee": "conditional",
+    "parking_ease": "ok",
+    "parking_note": "店舗駐車場622台。購入金額に応じて1〜3時間無料、買取は2時間無料(以降有料)",
+    "parking_source": "https://www.bookoff.co.jp/shop/shop20421.html"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 横浜東戸塚オリンピック店",
@@ -21,7 +35,15 @@
     "area": "ofuna",
     "address": "神奈川県横浜市戸塚区川上町52-1",
     "nearest": "JR横須賀線 東戸塚駅東口から徒歩8分",
-    "categories": ["本", "ゲーム", "ホビー", "家電", "服", "楽器", "家具"],
+    "categories": [
+      "本",
+      "ゲーム",
+      "ホビー",
+      "家電",
+      "服",
+      "楽器",
+      "家具"
+    ],
     "fashion_only": false,
     "super_bazaar": true,
     "large": true,
@@ -29,7 +51,13 @@
     "highlight": "本・ホビーに加え2Fにアパレル・ブランド品フロアを備える東戸塚の大型店",
     "hours": "10:00〜21:00(本館)、10:00〜19:00(ブランド品売場)",
     "source": "https://www.bookoff.co.jp/shop/shop20379.html",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 660,
+    "parking_fee": "free",
+    "parking_ease": "easy",
+    "parking_note": "店舗駐車場660台。購入にかかわらず入庫後120分無料(以降有料)",
+    "parking_source": "https://www.bookoff.co.jp/shop/shop20379.html"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR Luz湘南辻堂店",
@@ -37,7 +65,14 @@
     "area": "ofuna",
     "address": "神奈川県藤沢市辻堂神台1-2-12 Luz湘南辻堂3F",
     "nearest": "JR辻堂駅北口から徒歩3分",
-    "categories": ["本", "ゲーム", "ホビー", "家電", "服", "家具"],
+    "categories": [
+      "本",
+      "ゲーム",
+      "ホビー",
+      "家電",
+      "服",
+      "家具"
+    ],
     "fashion_only": false,
     "super_bazaar": true,
     "large": true,
@@ -45,7 +80,13 @@
     "highlight": "辻堂駅直結の商業施設内に入るSUPER BAZAAR業態",
     "hours": "10:00〜21:00",
     "source": "https://www.bookoff.co.jp/shop/shop20470.html",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 104,
+    "parking_fee": "conditional",
+    "parking_ease": "ok",
+    "parking_note": "Luz湘南辻堂駐車場104台(平面+機械式)。施設内1,000円ごとに1時間、最大3時間無料(以降有料)",
+    "parking_source": "https://www.luz-tsujido.com/guide/"
   },
   {
     "name": "BOOKOFF PLUS 藤沢大庭店",
@@ -53,7 +94,13 @@
     "area": "ofuna",
     "address": "神奈川県藤沢市大庭5454-5",
     "nearest": "藤沢駅よりバス「北の谷」下車徒歩3分、または辻堂駅よりバス「保健医療センター」下車徒歩7分",
-    "categories": ["本", "ゲーム", "ホビー", "家電", "服"],
+    "categories": [
+      "本",
+      "ゲーム",
+      "ホビー",
+      "家電",
+      "服"
+    ],
     "fashion_only": false,
     "super_bazaar": false,
     "large": null,
@@ -61,7 +108,13 @@
     "highlight": "",
     "hours": "10:00〜21:00",
     "source": "https://www.bookoff.co.jp/shop/shop20281.html",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 71,
+    "parking_fee": "free",
+    "parking_ease": "easy",
+    "parking_note": "スシローと共用の駐車場71台(無料)",
+    "parking_source": "https://www.bookoff.co.jp/shop/shop20281.html"
   },
   {
     "name": "BOOKOFF 逗子久木店",
@@ -69,7 +122,11 @@
     "area": "ofuna",
     "address": "神奈川県逗子市久木4-13-25",
     "nearest": "逗子駅から徒歩12分",
-    "categories": ["本", "ゲーム", "ホビー"],
+    "categories": [
+      "本",
+      "ゲーム",
+      "ホビー"
+    ],
     "fashion_only": false,
     "super_bazaar": false,
     "large": false,
@@ -77,7 +134,13 @@
     "highlight": "",
     "hours": "10:00〜20:00",
     "source": "https://www.bookoff.co.jp/shop/shop10807.html",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 23,
+    "parking_fee": "free",
+    "parking_ease": "ok",
+    "parking_note": "店舗駐車場23台。公式な料金記載はないが同チェーンの通常店舗は無料が基本(要最終確認)",
+    "parking_source": "https://www.bookoff.co.jp/shop/shop10807.html"
   },
   {
     "name": "BOOKOFF 横浜本郷台店",
@@ -85,7 +148,11 @@
     "area": "ofuna",
     "address": "神奈川県横浜市栄区飯島町1434",
     "nearest": "本郷台駅から徒歩15分(約1.2km)",
-    "categories": ["本", "ゲーム", "ホビー"],
+    "categories": [
+      "本",
+      "ゲーム",
+      "ホビー"
+    ],
     "fashion_only": false,
     "super_bazaar": false,
     "large": null,
@@ -93,7 +160,13 @@
     "highlight": "",
     "hours": "10:00〜20:00",
     "source": "https://www.bookoff.co.jp/shop/shop10744.html",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 40,
+    "parking_fee": "free",
+    "parking_ease": "easy",
+    "parking_note": "店舗駐車場40台。公式な料金記載はないが同チェーンの通常店舗は無料が基本(要最終確認)",
+    "parking_source": "https://www.bookoff.co.jp/shop/shop10744.html"
   },
   {
     "name": "BOOKOFF 横浜港南丸山台店",
@@ -101,7 +174,11 @@
     "area": "ofuna",
     "address": "神奈川県横浜市港南区丸山台4-3-1",
     "nearest": "横浜市営地下鉄 上永谷駅から徒歩約10分",
-    "categories": ["本", "ゲーム", "ホビー"],
+    "categories": [
+      "本",
+      "ゲーム",
+      "ホビー"
+    ],
     "fashion_only": false,
     "super_bazaar": false,
     "large": null,
@@ -109,7 +186,13 @@
     "highlight": "",
     "hours": "10:00〜22:00",
     "source": "https://www.bookoff.co.jp/shop/shop10413.html",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 33,
+    "parking_fee": "free",
+    "parking_ease": "easy",
+    "parking_note": "隣接カラオケボックスと共用の駐車場33台(無料)。休日は混雑あり",
+    "parking_source": "https://www.bookoff.co.jp/shop/shop10413.html"
   },
   {
     "name": "BOOKOFF 藤沢六会店",
@@ -117,7 +200,11 @@
     "area": "ofuna",
     "address": "神奈川県藤沢市亀井野2-25-11",
     "nearest": "六会日大前駅周辺",
-    "categories": ["本", "ゲーム", "ホビー"],
+    "categories": [
+      "本",
+      "ゲーム",
+      "ホビー"
+    ],
     "fashion_only": false,
     "super_bazaar": false,
     "large": false,
@@ -125,7 +212,13 @@
     "highlight": "",
     "hours": "10:00〜22:00",
     "source": "https://www.navitime.co.jp/poi?spot=06105-10481",
-    "confidence": "medium"
+    "confidence": "medium",
+    "parking": "yes",
+    "parking_count": 18,
+    "parking_fee": "free",
+    "parking_ease": "ok",
+    "parking_note": "店舗駐車場18台(無料)",
+    "parking_source": "https://www.navitime.co.jp/poi?spot=06105-10481"
   },
   {
     "name": "ハードオフ鎌倉大船モール店",
@@ -133,7 +226,13 @@
     "area": "ofuna",
     "address": "神奈川県鎌倉市岡本1188-1 コーナン鎌倉大船モール2階",
     "nearest": "JR大船駅から徒歩約15分、または大船駅西口バスセンターからバス約11分+徒歩3分",
-    "categories": ["PC", "家電", "ゲーム", "楽器", "ホビー"],
+    "categories": [
+      "PC",
+      "家電",
+      "ゲーム",
+      "楽器",
+      "ホビー"
+    ],
     "fashion_only": false,
     "super_bazaar": false,
     "large": true,
@@ -141,7 +240,13 @@
     "highlight": "オフハウスと同一フロアに併設する複合大型店。PC・ゲーム機・カメラ・楽器など取扱幅が広い",
     "hours": "10:00〜20:00",
     "source": "https://www.hardoff.co.jp/shop/detail/?p=201382",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 1441,
+    "parking_fee": "conditional",
+    "parking_ease": "ok",
+    "parking_note": "コーナン鎌倉大船モール駐車場1,441台。買い物なしでも90分無料、買い物で最大180分無料(以降有料)",
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=201382"
   },
   {
     "name": "オフハウス鎌倉大船モール店",
@@ -149,7 +254,13 @@
     "area": "ofuna",
     "address": "神奈川県鎌倉市岡本1188-1 コーナン鎌倉大船モール2階",
     "nearest": "JR大船駅から徒歩約15分、または大船駅西口バスセンターからバス約11分+徒歩3分",
-    "categories": ["服", "家具", "家電", "ホビー", "古道具"],
+    "categories": [
+      "服",
+      "家具",
+      "家電",
+      "ホビー",
+      "古道具"
+    ],
     "fashion_only": false,
     "super_bazaar": false,
     "large": true,
@@ -157,7 +268,13 @@
     "highlight": "ハイブランド品・ベビー用品・アウトドア用品・プラモデル・フィギュアまで扱う総合リユースフロア",
     "hours": "10:00〜20:00",
     "source": "https://www.hardoff.co.jp/shop/detail/?p=203288",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 1441,
+    "parking_fee": "conditional",
+    "parking_ease": "ok",
+    "parking_note": "コーナン鎌倉大船モール駐車場1,441台。買い物なしでも90分無料、買い物で最大180分無料(以降有料)",
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=203288"
   },
   {
     "name": "ホビーオフ藤沢店",
@@ -165,7 +282,9 @@
     "area": "ofuna",
     "address": "神奈川県藤沢市藤沢517-1",
     "nearest": "JR東海道本線・小田急線 藤沢駅北口から徒歩5分",
-    "categories": ["ホビー"],
+    "categories": [
+      "ホビー"
+    ],
     "fashion_only": false,
     "super_bazaar": false,
     "large": null,
@@ -173,7 +292,13 @@
     "highlight": "トレカ・フィギュア・プラモデル・ラジコン・鉄道模型・ミリタリーグッズ等ホビー専門",
     "hours": "10:30〜19:30",
     "source": "https://www.hardoff.co.jp/shop/kanto/kanagawa/hobbyoff/208096/",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": null,
+    "parking_fee": "conditional",
+    "parking_ease": "ok",
+    "parking_note": "提携駐車場(店舗裏・湘南パーキング)。買取1時間無料/購入1,000円以上1時間・5,000円以上2時間無料/未購入でも申告で30分無料",
+    "parking_source": "https://www.hardoff.co.jp/shop/kanto/kanagawa/hobbyoff/208096/"
   },
   {
     "name": "ハードオフ横浜緑園都市店",
@@ -181,7 +306,13 @@
     "area": "ofuna",
     "address": "神奈川県横浜市泉区緑園7-7-1",
     "nearest": "相鉄線 緑園都市駅東口から徒歩約10分",
-    "categories": ["PC", "家電", "ゲーム", "楽器", "ホビー"],
+    "categories": [
+      "PC",
+      "家電",
+      "ゲーム",
+      "楽器",
+      "ホビー"
+    ],
     "fashion_only": false,
     "super_bazaar": false,
     "large": null,
@@ -189,7 +320,13 @@
     "highlight": "",
     "hours": "10:30〜19:30",
     "source": "https://www.hardoff.co.jp/shop/detail/?p=201168",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 17,
+    "parking_fee": "free",
+    "parking_ease": "ok",
+    "parking_note": "店舗駐車場17台(無料)",
+    "parking_source": "https://www.hardoff.co.jp/shop/detail/?p=201168"
   },
   {
     "name": "トレジャーファクトリー大船店",
@@ -197,7 +334,14 @@
     "area": "ofuna",
     "address": "神奈川県横浜市栄区笠間4-2-17",
     "nearest": "大船駅から車で5分、環状4号線(県道23号)沿い",
-    "categories": ["家具", "家電", "服", "楽器", "ホビー", "古道具"],
+    "categories": [
+      "家具",
+      "家電",
+      "服",
+      "楽器",
+      "ホビー",
+      "古道具"
+    ],
     "fashion_only": false,
     "super_bazaar": false,
     "large": true,
@@ -205,7 +349,13 @@
     "highlight": "ブランド家具・最大1年保証付き中古家電・2階の広い洋服コーナーが特徴のロードサイド大型店",
     "hours": "平日11:00〜20:00、土日祝10:00〜20:00",
     "source": "https://www.treasure-f.com/shop/46/",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 35,
+    "parking_fee": "free",
+    "parking_ease": "easy",
+    "parking_note": "共用駐車場35台(無料)",
+    "parking_source": "https://www.treasure-f.com/shop/46/"
   },
   {
     "name": "トレジャーファクトリー藤沢店",
@@ -213,7 +363,12 @@
     "area": "ofuna",
     "address": "神奈川県藤沢市亀井野1-14-6",
     "nearest": "",
-    "categories": ["家具", "家電", "服", "ホビー"],
+    "categories": [
+      "家具",
+      "家電",
+      "服",
+      "ホビー"
+    ],
     "fashion_only": false,
     "super_bazaar": false,
     "large": null,
@@ -221,7 +376,13 @@
     "highlight": "",
     "hours": "平日11:00〜20:00、土日祝10:00〜20:00",
     "source": "https://www.treasure-f.com/shop/725/",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 17,
+    "parking_fee": "free",
+    "parking_ease": "ok",
+    "parking_note": "専用駐車場17台(無料)",
+    "parking_source": "https://www.treasure-f.com/shop/725/"
   },
   {
     "name": "トレファクスタイル東戸塚店",
@@ -229,7 +390,9 @@
     "area": "ofuna",
     "address": "神奈川県横浜市戸塚区川上町88-1 東横ビル東戸塚1F",
     "nearest": "JR東戸塚駅から徒歩3分",
-    "categories": ["服"],
+    "categories": [
+      "服"
+    ],
     "fashion_only": true,
     "super_bazaar": false,
     "large": false,
@@ -237,7 +400,13 @@
     "highlight": "古着・ブランド品の買取販売に特化したファッション専門店",
     "hours": "10:00〜20:00",
     "source": "https://www.tf-style.com/shop/424/",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": null,
+    "parking_fee": "conditional",
+    "parking_ease": "ok",
+    "parking_note": "専用駐車場なし。隣接TYパーキングと提携し5,000円以上購入または買取成立で最大1時間無料",
+    "parking_source": "https://www.tf-style.com/shop/424/topics/342288/"
   },
   {
     "name": "トレファクスタイル辻堂店",
@@ -245,7 +414,9 @@
     "area": "ofuna",
     "address": "神奈川県藤沢市辻堂2-5-1 トレンディ辻堂1F",
     "nearest": "",
-    "categories": ["服"],
+    "categories": [
+      "服"
+    ],
     "fashion_only": true,
     "super_bazaar": false,
     "large": false,
@@ -253,7 +424,13 @@
     "highlight": "古着・ブランド品の買取販売に特化したファッション専門店",
     "hours": "11:00〜20:00",
     "source": "https://www.tf-style.com/shop/492/",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": null,
+    "parking_fee": "conditional",
+    "parking_ease": "ok",
+    "parking_note": "専用駐車場なし。提携駐車場があり買取成立または5,000円以上購入でサービス券",
+    "parking_source": "https://www.tf-style.com/shop/492/"
   },
   {
     "name": "トレファクスタイル藤沢石川店",
@@ -261,7 +438,9 @@
     "area": "ofuna",
     "address": "神奈川県藤沢市石川3丁目22-13",
     "nearest": "",
-    "categories": ["服"],
+    "categories": [
+      "服"
+    ],
     "fashion_only": true,
     "super_bazaar": false,
     "large": false,
@@ -269,7 +448,13 @@
     "highlight": "古着・ブランド品の買取販売に特化したファッション専門店",
     "hours": "10:00〜20:00",
     "source": "https://www.tf-style.com/shop/516/",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 23,
+    "parking_fee": "free",
+    "parking_ease": "ok",
+    "parking_note": "専用駐車場23台(無料)",
+    "parking_source": "https://www.tf-style.com/shop/516/"
   },
   {
     "name": "セカンドストリート 西友大船店",
@@ -277,7 +462,9 @@
     "area": "ofuna",
     "address": "神奈川県鎌倉市大船1-25-30 西友大船店4F",
     "nearest": "大船駅から徒歩2分",
-    "categories": ["服"],
+    "categories": [
+      "服"
+    ],
     "fashion_only": true,
     "super_bazaar": false,
     "large": false,
@@ -285,7 +472,13 @@
     "highlight": "アパレル特化のリユースショップ(2023年開店)",
     "hours": "10:00〜21:00(買取受付10:00〜20:30)",
     "source": "https://www.2ndstreet.jp/shop/details?shopsId=31554",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 34,
+    "parking_fee": "conditional",
+    "parking_ease": "ok",
+    "parking_note": "西友大船店第1駐車場34台。2,000円以上購入で1時間、4,000円以上で2時間無料(以降有料)",
+    "parking_source": "https://freeparking-info.com/supermarket-seiyu-kanagawa-kamakurashi-ofuna/"
   },
   {
     "name": "セカンドストリート 横浜戸塚店",
@@ -293,7 +486,11 @@
     "area": "ofuna",
     "address": "神奈川県横浜市戸塚区吉田町930",
     "nearest": "",
-    "categories": ["服", "家電", "雑貨"],
+    "categories": [
+      "服",
+      "家電",
+      "雑貨"
+    ],
     "fashion_only": false,
     "super_bazaar": false,
     "large": null,
@@ -301,7 +498,13 @@
     "highlight": "",
     "hours": "10:00〜21:00(買取受付10:00〜20:30)",
     "source": "https://www.2ndstreet.jp/shop/details?shopsId=31145",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 17,
+    "parking_fee": "paid",
+    "parking_ease": "ok",
+    "parking_note": "店舗1階のタイムズ駐車場(有料)。購入による無料化の記載なし",
+    "parking_source": "https://www.2ndstreet.jp/shop/details?shopsId=31145"
   },
   {
     "name": "セカンドストリート 横浜緑園都市店",
@@ -309,7 +512,12 @@
     "area": "ofuna",
     "address": "神奈川県横浜市泉区緑園5-30-1",
     "nearest": "",
-    "categories": ["服", "家具", "家電", "楽器"],
+    "categories": [
+      "服",
+      "家具",
+      "家電",
+      "楽器"
+    ],
     "fashion_only": false,
     "super_bazaar": false,
     "large": null,
@@ -317,7 +525,13 @@
     "highlight": "",
     "hours": "10:00〜20:00",
     "source": "https://www.2ndstreet.jp/shop/details?shopsId=31282",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 46,
+    "parking_fee": "conditional",
+    "parking_ease": "ok",
+    "parking_note": "タイムズ駐車場46台。レジでの処理で2時間無料(購入なしでも対応)",
+    "parking_source": "https://digginnow.com/%E3%80%90%E5%8F%A4%E7%9D%80%E3%83%87%E3%82%A3%E3%82%B0%E7%8F%BE%E5%9C%B0%E8%AA%BF%E6%9F%BB%E3%80%91%E3%82%BB%E3%82%AB%E3%83%B3%E3%83%89%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88%E6%A8%AA%E6%B5%9C/"
   },
   {
     "name": "セカンドストリート 藤沢六会店",
@@ -325,7 +539,11 @@
     "area": "ofuna",
     "address": "神奈川県藤沢市亀井野3-29-10",
     "nearest": "六会日大前駅周辺",
-    "categories": ["服", "家電", "家具"],
+    "categories": [
+      "服",
+      "家電",
+      "家具"
+    ],
     "fashion_only": false,
     "super_bazaar": false,
     "large": null,
@@ -333,7 +551,13 @@
     "highlight": "",
     "hours": "10:00〜21:00(買取受付10:00〜20:30)",
     "source": "https://www.2ndstreet.jp/shop/details?shopsId=30874",
-    "confidence": "high"
+    "confidence": "high",
+    "parking": "yes",
+    "parking_count": 20,
+    "parking_fee": "free",
+    "parking_ease": "ok",
+    "parking_note": "店舗駐車場20台(無料)",
+    "parking_source": "https://www.navitime.co.jp/poi?spot=06162-30874"
   },
   {
     "name": "ゼスト横浜戸塚店 Supported by 駿河屋",
@@ -341,7 +565,10 @@
     "area": "ofuna",
     "address": "神奈川県横浜市戸塚区汲沢町92-5",
     "nearest": "",
-    "categories": ["ゲーム", "ホビー"],
+    "categories": [
+      "ゲーム",
+      "ホビー"
+    ],
     "fashion_only": false,
     "super_bazaar": false,
     "large": null,
@@ -349,6 +576,12 @@
     "highlight": "ポケカ・ワンピース・遊戯王等のシングルカードコーナーとガンプラコーナーが充実",
     "hours": "月・水〜土 13:00〜23:00、日 12:00〜22:00(火休)",
     "source": "https://www.suruga-ya.co.jp/ja/node/1275",
-    "confidence": "medium"
+    "confidence": "medium",
+    "parking": "no",
+    "parking_count": null,
+    "parking_fee": null,
+    "parking_ease": "none",
+    "parking_note": "専用駐車場なし。バス便が中心",
+    "parking_source": "https://www.ekiten.jp/shop_6818576/access/"
   }
 ]
