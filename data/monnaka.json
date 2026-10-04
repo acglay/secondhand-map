@@ -1,0 +1,552 @@
+[
+  {
+    "name": "BOOKOFF SUPER BAZAAR ショップス市川店",
+    "chain": "BOOKOFF",
+    "area": "monnaka",
+    "address": "千葉県市川市鬼高3-28-16 ショップス2階",
+    "nearest": "東西線 原木中山駅 徒歩13分(門仲から乗換なし)/JR下総中山駅 徒歩10分",
+    "categories": [
+      "本",
+      "ゲーム",
+      "ホビー",
+      "トレカ",
+      "家電",
+      "楽器",
+      "服",
+      "スポーツ",
+      "ブランド",
+      "家具",
+      "雑貨"
+    ],
+    "fashion_only": false,
+    "super_bazaar": true,
+    "large": true,
+    "size": "大型店舗(公式表記)・駐車場696台",
+    "highlight": "本から楽器・家具・ブランド品まで揃う総合大型店。トレカ無料対戦スペース最大64席。",
+    "hours": "10:00〜21:00",
+    "source": "https://www.bookoff.co.jp/shop/shop20505.html",
+    "confidence": "high"
+  },
+  {
+    "name": "BOOKOFF 江東門前仲町店",
+    "chain": "BOOKOFF",
+    "area": "monnaka",
+    "address": "東京都江東区越中島1-2-7 アスミビル",
+    "nearest": "東京メトロ東西線 門前仲町駅4番出口より徒歩約3分",
+    "categories": [
+      "本"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": false,
+    "size": "公式ページに「小型店舗」と記載",
+    "highlight": "門仲駅から最も近いBOOKOFF。小型店舗のため品揃えは標準的な古本中心。",
+    "hours": "10:00～21:00",
+    "source": "https://www.bookoff.co.jp/shop/shop10486.html",
+    "confidence": "high"
+  },
+  {
+    "name": "BOOKOFF 亀戸駅東口店",
+    "chain": "BOOKOFF",
+    "area": "monnaka",
+    "address": "東京都江東区亀戸6-57-19",
+    "nearest": "JR総武線 亀戸駅東口より徒歩約1分",
+    "categories": [
+      "本"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": null,
+    "size": "",
+    "highlight": "",
+    "hours": "10:00～22:00",
+    "source": "https://www.bookoff.co.jp/shop/shop10687.html",
+    "confidence": "high"
+  },
+  {
+    "name": "Rehello by BOOKOFF 清澄白河店",
+    "chain": "BOOKOFF",
+    "area": "monnaka",
+    "address": "東京都江東区白河3-4-3 イーストコモンズ清澄白河フロントタワー1F",
+    "nearest": "東京メトロ半蔵門線 清澄白河駅B2出口徒歩3分／都営大江戸線A3出口徒歩5分",
+    "categories": [
+      "本",
+      "服",
+      "家電"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": false,
+    "size": "1F小型店舗",
+    "highlight": "BOOKOFFグループの新業態「Rehello」。本以外に服・雑貨・小型家電も扱う小型複合店。",
+    "hours": "10:30～19:00",
+    "source": "https://www.bookoff.co.jp/shop/shop80128.html",
+    "confidence": "high"
+  },
+  {
+    "name": "BOOKOFF 中葛西店",
+    "chain": "BOOKOFF",
+    "area": "monnaka",
+    "address": "東京都江戸川区中葛西4-4-8",
+    "nearest": "東京メトロ東西線 西葛西駅・葛西駅より徒歩12〜13分",
+    "categories": [
+      "本"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": null,
+    "size": "",
+    "highlight": "",
+    "hours": "10:00～21:00",
+    "source": "https://www.bookoff.co.jp/shop/shop10573.html",
+    "confidence": "high"
+  },
+  {
+    "name": "BOOKOFF 葛西駅前店",
+    "chain": "BOOKOFF",
+    "area": "monnaka",
+    "address": "東京都江戸川区中葛西5-34-11",
+    "nearest": "東京メトロ東西線 葛西駅西口より徒歩約2分",
+    "categories": [
+      "本"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": null,
+    "size": "",
+    "highlight": "",
+    "hours": "10:00～22:00",
+    "source": "https://www.bookoff.co.jp/shop/shop20172.html",
+    "confidence": "high"
+  },
+  {
+    "name": "BOOKOFF 浅草稲荷町店",
+    "chain": "BOOKOFF",
+    "area": "monnaka",
+    "address": "東京都台東区松が谷1-3-5",
+    "nearest": "東京メトロ銀座線 稲荷町駅より徒歩約4分",
+    "categories": [
+      "本"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": true,
+    "size": "地下1階〜1階の2フロア構成",
+    "highlight": "B1〜1Fの2フロア構成で浅草エリアでは比較的大きめ。",
+    "hours": "10:00～23:00",
+    "source": "https://www.bookoff.co.jp/shop/pref-list/13.html",
+    "confidence": "medium"
+  },
+  {
+    "name": "BOOKOFF 江戸川東小岩店",
+    "chain": "BOOKOFF",
+    "area": "monnaka",
+    "address": "東京都江戸川区東小岩4-1-7",
+    "nearest": "JR総武線 小岩駅よりバス、または車で約10分",
+    "categories": [
+      "本"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": null,
+    "size": "",
+    "highlight": "ホビーオフ江戸川東小岩店と同一施設内（複合店舗）。",
+    "hours": "10:00～20:00",
+    "source": "https://www.bookoff.co.jp/shop/shop10646.html",
+    "confidence": "high"
+  },
+  {
+    "name": "ホビーオフ亀戸天神前店",
+    "chain": "ホビーオフ（ハードオフグループ）",
+    "area": "monnaka",
+    "address": "東京都江東区亀戸3-61-23",
+    "nearest": "JR亀戸駅北口より徒歩約7分",
+    "categories": [
+      "ホビー",
+      "ゲーム"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": null,
+    "size": "",
+    "highlight": "ゲーム機・トレカ・フィギュア・プラモデル・ラジコン・鉄道模型・ガン/ミリタリーなどホビー全般に特化。",
+    "hours": "10:30～20:00",
+    "source": "https://www.hardoff.co.jp/shop/detail/?p=208087",
+    "confidence": "high"
+  },
+  {
+    "name": "ホビーオフ浅草店",
+    "chain": "ホビーオフ（ハードオフグループ）",
+    "area": "monnaka",
+    "address": "東京都台東区浅草3-9-2 ランドール浅草",
+    "nearest": "浅草駅より徒歩約5分",
+    "categories": [
+      "ホビー",
+      "ゲーム"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": null,
+    "size": "",
+    "highlight": "フィギュア・ミニカー・鉄道模型・ガン・特撮玩具・年代物玩具・プラモデル・ゲームなど幅広いホビー専門店。",
+    "hours": "10:30～20:00",
+    "source": "https://www.hardoff.co.jp/shop/detail/?p=208137",
+    "confidence": "high"
+  },
+  {
+    "name": "ホビーオフ江戸川東小岩店",
+    "chain": "ホビーオフ（ハードオフグループ）",
+    "area": "monnaka",
+    "address": "東京都江戸川区東小岩4-1-7",
+    "nearest": "JR総武線 小岩駅よりバス、または車で約10分",
+    "categories": [
+      "ホビー",
+      "ゲーム"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": null,
+    "size": "駐車場20台",
+    "highlight": "BOOKOFF江戸川東小岩店と同一施設の複合店。駐車場20台と郊外型で比較的広め。",
+    "hours": "10:00～20:00",
+    "source": "https://www.hardoff.co.jp/shop/detail/?p=208118",
+    "confidence": "high"
+  },
+  {
+    "name": "モードオフ小岩フラワーロード商店街店",
+    "chain": "モードオフ（ハードオフグループ）",
+    "area": "monnaka",
+    "address": "東京都江戸川区南小岩7-22-6",
+    "nearest": "JR総武線 小岩駅南口より徒歩約1分",
+    "categories": [
+      "服"
+    ],
+    "fashion_only": true,
+    "super_bazaar": false,
+    "large": null,
+    "size": "",
+    "highlight": "レディース・メンズ衣類に加えブランドバッグ・腕時計・サングラス・貴金属も扱うファッション専門店。",
+    "hours": "10:00～21:00",
+    "source": "https://www.hardoff.co.jp/shop/detail/?p=104019",
+    "confidence": "high"
+  },
+  {
+    "name": "ハードオフ錦糸町マルイ店",
+    "chain": "ハードオフ",
+    "area": "monnaka",
+    "address": "東京都墨田区江東橋3-9-10 錦糸町マルイ5F",
+    "nearest": "JR錦糸町駅南口・東京メトロ半蔵門線1番出口より徒歩約2分",
+    "categories": [
+      "家電",
+      "PC",
+      "ゲーム",
+      "楽器"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": null,
+    "size": "錦糸町マルイ5F",
+    "highlight": "錦糸町マルイ5階に入る都市型ハードオフ。",
+    "hours": "10:30～20:00",
+    "source": "https://www.hardoff.co.jp/shop/detail/?p=101131",
+    "confidence": "medium"
+  },
+  {
+    "name": "セカンドストリート 墨田東向島店",
+    "chain": "セカンドストリート",
+    "area": "monnaka",
+    "address": "東京都墨田区東向島5-39-13",
+    "nearest": "東武伊勢崎線 東向島駅周辺",
+    "categories": [
+      "服",
+      "家具",
+      "家電",
+      "ホビー"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": null,
+    "size": "駐車場16台",
+    "highlight": "服・家具・家電まで扱う標準的な総合セカンドストリート。",
+    "hours": "10:00～21:00",
+    "source": "https://www.2ndstreet.jp/shop/details?shopsId=31163",
+    "confidence": "medium"
+  },
+  {
+    "name": "セカンドストリート オリナス錦糸町店",
+    "chain": "セカンドストリート",
+    "area": "monnaka",
+    "address": "東京都墨田区太平4-1-2 オリナス錦糸町3F",
+    "nearest": "JR錦糸町駅直結（オリナス錦糸町内）",
+    "categories": [
+      "服"
+    ],
+    "fashion_only": true,
+    "super_bazaar": false,
+    "large": null,
+    "size": "オリナス錦糸町3F（商業施設内テナント）",
+    "highlight": "アパレル特化のリユースショップ。洋服・バッグ・靴中心。",
+    "hours": "10:00～21:00",
+    "source": "https://www.2ndstreet.jp/shop/details?shopsId=31794",
+    "confidence": "medium"
+  },
+  {
+    "name": "セカンドストリート 丸井錦糸町店",
+    "chain": "セカンドストリート",
+    "area": "monnaka",
+    "address": "東京都墨田区江東橋3-9-10 丸井錦糸町店5F",
+    "nearest": "JR錦糸町駅南口より徒歩約2分（錦糸町マルイ内）",
+    "categories": [
+      "服"
+    ],
+    "fashion_only": true,
+    "super_bazaar": false,
+    "large": null,
+    "size": "錦糸町マルイ5F（ハードオフと同フロア）",
+    "highlight": "「洋服が多い・商品の種類が豊富」と評判。ハードオフ錦糸町マルイ店と同じ5階に併設。",
+    "hours": "",
+    "source": "https://www.2ndstreet.jp/shop/details?shopsId=31503",
+    "confidence": "medium"
+  },
+  {
+    "name": "セカンドストリート カメイドクロック店",
+    "chain": "セカンドストリート",
+    "area": "monnaka",
+    "address": "東京都江東区亀戸6-31-6 カメイドクロック3F",
+    "nearest": "JR亀戸駅前（カメイドクロック内）",
+    "categories": [
+      "服"
+    ],
+    "fashion_only": true,
+    "super_bazaar": false,
+    "large": null,
+    "size": "商業施設カメイドクロック3Fテナント",
+    "highlight": "ブランド古着を中心にバイヤーが厳選した都市型セレクトショップ業態。",
+    "hours": "10:00～21:00",
+    "source": "https://www.2ndstreet.jp/shop/details?shopsId=31748",
+    "confidence": "medium"
+  },
+  {
+    "name": "セカンドストリート 亀戸店",
+    "chain": "セカンドストリート",
+    "area": "monnaka",
+    "address": "東京都江東区亀戸5-15-1 亀戸いなきやビル2F",
+    "nearest": "JR亀戸駅周辺",
+    "categories": [
+      "服",
+      "家具",
+      "家電",
+      "ホビー"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": null,
+    "size": "",
+    "highlight": "服・家具・家電まで扱う標準的な総合店。",
+    "hours": "10:00-21:00",
+    "source": "https://www.2ndstreet.jp/shop/details?shopsId=31353",
+    "confidence": "medium"
+  },
+  {
+    "name": "セカンドストリート 上野マルイ店",
+    "chain": "セカンドストリート",
+    "area": "monnaka",
+    "address": "東京都台東区上野6-15-1 上野マルイ3F",
+    "nearest": "JR上野駅・京成上野駅周辺（上野マルイ内）",
+    "categories": [
+      "服"
+    ],
+    "fashion_only": true,
+    "super_bazaar": false,
+    "large": null,
+    "size": "上野マルイ3Fテナント",
+    "highlight": "ブランド古着中心のセレクトショップ業態。",
+    "hours": "11:00～20:00（買取受付11:00～19:30）",
+    "source": "https://www.2ndstreet.jp/shop/details?shopsId=32193",
+    "confidence": "medium"
+  },
+  {
+    "name": "セカンドストリート コーナン江戸川船堀店",
+    "chain": "セカンドストリート",
+    "area": "monnaka",
+    "address": "東京都江戸川区船堀1-2-29 コーナン江戸川船堀店2F",
+    "nearest": "都営新宿線 船堀駅周辺",
+    "categories": [
+      "服"
+    ],
+    "fashion_only": true,
+    "super_bazaar": false,
+    "large": null,
+    "size": "ホームセンター「コーナン」2Fテナント",
+    "highlight": "ホームセンターコーナン内テナント。アパレル関連アイテムが中心。",
+    "hours": "10:00-21:00（買取受付10:00-20:30）",
+    "source": "https://www.2ndstreet.jp/shop/details?shopsId=32112",
+    "confidence": "medium"
+  },
+  {
+    "name": "セカンドストリート 江戸川大杉店",
+    "chain": "セカンドストリート",
+    "area": "monnaka",
+    "address": "東京都江戸川区大杉3-10-1",
+    "nearest": "江戸川区大杉エリア",
+    "categories": [
+      "服"
+    ],
+    "fashion_only": true,
+    "super_bazaar": false,
+    "large": null,
+    "size": "ゲオモバイル併設店",
+    "highlight": "セカンドストリートとゲオモバイルの併設1号店。レディース/メンズ/キッズ衣類・ラグジュアリーブランド・貴金属中心。",
+    "hours": "10:00～21:00（買取受付10:00～20:30）",
+    "source": "https://www.2ndstreet.jp/shop/details?shopsId=31641",
+    "confidence": "medium"
+  },
+  {
+    "name": "トレファクスタイル 亀戸1号店",
+    "chain": "トレファクスタイル（トレジャーファクトリー）",
+    "area": "monnaka",
+    "address": "東京都江東区亀戸6-25-5 コンフォリア亀戸サウス2F",
+    "nearest": "JR総武線 亀戸駅より徒歩約3分",
+    "categories": [
+      "服"
+    ],
+    "fashion_only": true,
+    "super_bazaar": false,
+    "large": null,
+    "size": "",
+    "highlight": "メンズ・ラグジュアリーブランド中心のファッションリユース店。",
+    "hours": "平日11:00～21:00／土日祝10:00～21:00",
+    "source": "https://www.tf-style.com/shop/489/",
+    "confidence": "high"
+  },
+  {
+    "name": "トレファクスタイル 亀戸2号店",
+    "chain": "トレファクスタイル（トレジャーファクトリー）",
+    "area": "monnaka",
+    "address": "東京都江東区亀戸2-37-11",
+    "nearest": "JR総武線 亀戸駅より徒歩約5分",
+    "categories": [
+      "服"
+    ],
+    "fashion_only": true,
+    "super_bazaar": false,
+    "large": null,
+    "size": "",
+    "highlight": "王道ブランド・スポーツ・アウトドアブランド中心。1号店と2軒で品揃えを分けている。",
+    "hours": "10:00～21:00",
+    "source": "https://www.tf-style.com/shop/398/",
+    "confidence": "high"
+  },
+  {
+    "name": "トレファクスタイル 南砂町スナモ店",
+    "chain": "トレファクスタイル（トレジャーファクトリー）",
+    "area": "monnaka",
+    "address": "東京都江東区新砂3-4-31 南砂町ショッピングセンターSUNAMO 3F",
+    "nearest": "東京メトロ東西線 南砂町駅より徒歩約5分",
+    "categories": [
+      "服"
+    ],
+    "fashion_only": true,
+    "super_bazaar": false,
+    "large": null,
+    "size": "大型商業施設SUNAMO内テナント（共用駐車場1240台）",
+    "highlight": "大型モールSUNAMO内のファッションリユース専門店。",
+    "hours": "10:00～21:00（買取受付10:00～20:00）",
+    "source": "https://www.tf-style.com/shop/619/",
+    "confidence": "high"
+  },
+  {
+    "name": "トレファクスタイル 瑞江店",
+    "chain": "トレファクスタイル（トレジャーファクトリー）",
+    "area": "monnaka",
+    "address": "東京都江戸川区南篠崎町3-3-1",
+    "nearest": "都営新宿線 瑞江駅より徒歩約4分",
+    "categories": [
+      "服"
+    ],
+    "fashion_only": true,
+    "super_bazaar": false,
+    "large": null,
+    "size": "",
+    "highlight": "",
+    "hours": "11:00～20:00（買取受付11:00～19:00）",
+    "source": "https://www.tf-style.com/shop/324/",
+    "confidence": "high"
+  },
+  {
+    "name": "トレファクスタイル 葛西店",
+    "chain": "トレファクスタイル（トレジャーファクトリー）",
+    "area": "monnaka",
+    "address": "東京都江戸川区東葛西5-1-5 1F",
+    "nearest": "東京メトロ東西線 葛西駅より徒歩約1分",
+    "categories": [
+      "服"
+    ],
+    "fashion_only": true,
+    "super_bazaar": false,
+    "large": true,
+    "size": "2階建て（2階はブランド中心の品揃え）",
+    "highlight": "葛西駅前の2階建て大型店。2階はブランド品中心。",
+    "hours": "10:00～21:00",
+    "source": "https://www.tf-style.com/shop/60/",
+    "confidence": "high"
+  },
+  {
+    "name": "ユーズレット 平井店",
+    "chain": "ユーズレット（トレジャーファクトリー系）",
+    "area": "monnaka",
+    "address": "東京都江戸川区平井3-23-19",
+    "nearest": "JR総武線 平井駅より徒歩約3分",
+    "categories": [
+      "服"
+    ],
+    "fashion_only": true,
+    "super_bazaar": false,
+    "large": null,
+    "size": "",
+    "highlight": "古着のアウトレット販売専門（買取は行わず販売のみ）。",
+    "hours": "10:00～20:00",
+    "source": "https://www.tf-style.com/shop/191/",
+    "confidence": "high"
+  },
+  {
+    "name": "大型総合リサイクルショップ 愛品館江戸川店",
+    "chain": "その他大型リサイクル店（愛品館・愛品倶楽部）",
+    "area": "monnaka",
+    "address": "東京都江戸川区春江町1-1-18",
+    "nearest": "都営新宿線 瑞江駅エリア（国道14号沿い）",
+    "categories": [
+      "家具",
+      "家電",
+      "服",
+      "ホビー",
+      "古道具"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": true,
+    "size": "店名に「大型総合リサイクルショップ」を明記",
+    "highlight": "家具・家電から日用品・趣味の物まで幅広く扱う大型総合リサイクルショップ。江戸川区・葛飾区・江東区・墨田区等の出張買取にも対応。",
+    "hours": "10:00～19:00",
+    "source": "https://www.aihin.co.jp/edogawa/",
+    "confidence": "medium"
+  },
+  {
+    "name": "たんぽぽハウス 門前仲町店",
+    "chain": "個人店（古着・リサイクル）",
+    "area": "monnaka",
+    "address": "東京都江東区門前仲町2-11-6",
+    "nearest": "門前仲町駅6番出口より徒歩約1分",
+    "categories": [
+      "服"
+    ],
+    "fashion_only": true,
+    "super_bazaar": false,
+    "large": null,
+    "size": "",
+    "highlight": "門仲駅から徒歩1分の個人古着店。子供服から年配向け・男性ものまで品数がとにかく多いと評判。",
+    "hours": "10:00～20:00",
+    "source": "http://www.haneq.co.jp/15808898589643",
+    "confidence": "low"
+  }
+]

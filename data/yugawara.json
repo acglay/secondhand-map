@@ -1,0 +1,256 @@
+[
+  {
+    "name": "BOOKOFF 小田原蛍田店",
+    "chain": "BOOKOFF",
+    "area": "yugawara",
+    "address": "神奈川県小田原市飯田岡39",
+    "nearest": "小田急蛍田駅から徒歩7分(湯河原から車で約25分)",
+    "categories": [
+      "本",
+      "ゲーム"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": false,
+    "size": "小型店舗(公式表記)・駐車場58台",
+    "highlight": "",
+    "hours": "10:00〜21:00",
+    "source": "https://www.bookoff.co.jp/shop/shop10535.html",
+    "confidence": "high"
+  },
+  {
+    "name": "モードオフ小田原ダイヤ街店",
+    "chain": "モードオフ",
+    "area": "yugawara",
+    "address": "神奈川県小田原市栄町2-8-15 地下1階",
+    "nearest": "小田原駅から徒歩5分(湯河原から車で約25分)",
+    "categories": [
+      "服"
+    ],
+    "fashion_only": true,
+    "super_bazaar": false,
+    "large": null,
+    "size": "",
+    "highlight": "レディース・メンズ衣料に加え、ハイブランド(ルイ・ヴィトン、シャネル、プラダ等)・腕時計・ジュエリーも扱うファッション専門店。",
+    "hours": "10:00〜20:00(12/31は10:00〜17:00、1/1は12:00〜20:00)",
+    "source": "https://www.hardoff.co.jp/shop/detail/?p=104030",
+    "confidence": "high"
+  },
+  {
+    "name": "ホビーオフ小田原ダイヤ街店",
+    "chain": "ホビーオフ",
+    "area": "yugawara",
+    "address": "神奈川県小田原市栄町2-8-15 地下1階",
+    "nearest": "小田原駅から徒歩3分(湯河原から車で約25分)",
+    "categories": [
+      "ホビー",
+      "ゲーム"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": null,
+    "size": "",
+    "highlight": "トレーディングカード・おもちゃ・フィギュア・プラモデル・ミニカー・ゲームソフト・鉄道模型・ラジコンまでホビー全般を広く扱う。",
+    "hours": "10:00〜20:00",
+    "source": "https://www.hardoff.co.jp/shop/detail/?p=108040",
+    "confidence": "high"
+  },
+  {
+    "name": "ハードオフ小田原鴨宮店",
+    "chain": "ハードオフ",
+    "area": "yugawara",
+    "address": "神奈川県小田原市前川235-3",
+    "nearest": "鴨宮駅・国府津駅から徒歩25分(湯河原から車で約30分)",
+    "categories": [
+      "家電",
+      "PC",
+      "ゲーム",
+      "楽器"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": true,
+    "size": "駐車場44台、ホビーオフ併設の複合店",
+    "highlight": "オーディオルームをコンセプトにしたセレクションコーナーがあり、ゲームソフト・DVDの品揃えが豊富。",
+    "hours": "10:00〜20:00(年中無休)",
+    "source": "https://www.hardoff.co.jp/shop/detail/?p=101030",
+    "confidence": "high"
+  },
+  {
+    "name": "ホビーオフ小田原鴨宮店",
+    "chain": "ホビーオフ",
+    "area": "yugawara",
+    "address": "神奈川県小田原市前川235-3",
+    "nearest": "鴨宮駅・国府津駅から徒歩25分(湯河原から車で約30分)",
+    "categories": [
+      "ホビー",
+      "ゲーム"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": true,
+    "size": "ハードオフ小田原鴨宮店と同一建物の併設店",
+    "highlight": "トレカ・フィギュア・プラモデル・ガン/ミリタリーグッズまでホビー全般。",
+    "hours": "10:00〜20:00(年中無休)",
+    "source": "https://www.hardoff.co.jp/shop/detail/?p=108004",
+    "confidence": "high"
+  },
+  {
+    "name": "オフハウス小田原鴨宮シティーモール店",
+    "chain": "オフハウス",
+    "area": "yugawara",
+    "address": "神奈川県小田原市前川120",
+    "nearest": "鴨宮駅・国府津駅から徒歩25分(湯河原から車で約30分)",
+    "categories": [
+      "家具",
+      "家電",
+      "服"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": true,
+    "size": "小田原鴨宮シティーモール内・ガレージオフと同一施設",
+    "highlight": "家具・家電・ブランド品・金プラチナジュエリー・スポーツ/キャンプ用品・工具まで幅広く扱う。",
+    "hours": "10:00〜20:00",
+    "source": "https://www.hardoff.co.jp/shop/detail/?p=103063",
+    "confidence": "high"
+  },
+  {
+    "name": "ガレージオフ 小田原鴨宮シティーモール店",
+    "chain": "ガレージオフ",
+    "area": "yugawara",
+    "address": "神奈川県小田原市前川120",
+    "nearest": "鴨宮駅・国府津駅から徒歩25分(湯河原から車で約30分)",
+    "categories": [
+      "車・バイク用品"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": null,
+    "size": "小田原鴨宮シティーモール内・オフハウスと同一施設",
+    "highlight": "タイヤ・ホイール・カーオーディオ・電動工具など車/バイク関連の買取販売に特化。",
+    "hours": "10:00〜20:00",
+    "source": "https://tokubai.co.jp/%E3%82%AC%E3%83%AC%E3%83%BC%E3%82%B8%E3%82%AA%E3%83%95/167237",
+    "confidence": "medium"
+  },
+  {
+    "name": "トレジャーファクトリー小田原店",
+    "chain": "トレジャーファクトリー",
+    "area": "yugawara",
+    "address": "神奈川県小田原市鴨宮810-1",
+    "nearest": "鴨宮駅から徒歩約15分(湯河原から車で約30分)",
+    "categories": [
+      "家具",
+      "家電",
+      "服",
+      "ホビー"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": true,
+    "size": "専用駐車場28台、大型家具・家電から服飾・ホビーまで幅広い複合リユース店",
+    "highlight": "大型家具・家電からブランド品、酒、楽器、おもちゃ・ホビーまで幅広く扱う総合リユース店。軽トラ無料貸出サービスあり。",
+    "hours": "平日11:00〜20:00/土日祝10:00〜20:00",
+    "source": "https://www.treasure-f.com/shop/417/",
+    "confidence": "high"
+  },
+  {
+    "name": "セカンドストリート 小田原扇町店",
+    "chain": "セカンドストリート",
+    "area": "yugawara",
+    "address": "神奈川県小田原市扇町3-13-20",
+    "nearest": "小田原駅から車で約10分(湯河原から車で約25分)",
+    "categories": [
+      "服",
+      "家具",
+      "家電",
+      "楽器"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": null,
+    "size": "駐車台数23台",
+    "highlight": "洋服・服飾雑貨から家具・家電・楽器・アウトドア用品・キッズ用品まで扱う総合リユース店。",
+    "hours": "10:00〜20:00(買取受付10:00〜19:30)",
+    "source": "https://www.2ndstreet.jp/shop/details?shopsId=31426",
+    "confidence": "high"
+  },
+  {
+    "name": "BOOKOFF 函南店",
+    "chain": "BOOKOFF",
+    "area": "yugawara",
+    "address": "静岡県田方郡函南町塚本135-1",
+    "nearest": "伊豆箱根鉄道 伊豆仁田駅から徒歩約10分(湯河原から車で約35〜40分)",
+    "categories": [
+      "本",
+      "ゲーム"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": null,
+    "size": "中型店舗(公式表記)・駐車場40台",
+    "highlight": "",
+    "hours": "10:00〜22:00",
+    "source": "https://www.bookoff.co.jp/shop/shop10074.html",
+    "confidence": "high"
+  },
+  {
+    "name": "リサイクルの店 やまと",
+    "chain": "個人店",
+    "area": "yugawara",
+    "address": "神奈川県足柄下郡湯河原町土肥6-11-2",
+    "nearest": "JR湯河原駅から徒歩12分、またはバス「小学校前」下車徒歩1分",
+    "categories": [
+      "家電",
+      "家具",
+      "古道具"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": null,
+    "size": "",
+    "highlight": "家電・家具から貴金属・骨董品(絵画・掛軸・置物)まで扱う湯河原地元の総合リサイクル店。湯河原・小田原・熱海・真鶴へ出張買取対応。",
+    "hours": "受付9:00〜15:00/店舗営業8:30〜16:00(定休日:日曜、臨時休業あり)",
+    "source": "https://www.navida.ne.jp/snavi/100603_1.html",
+    "confidence": "medium"
+  },
+  {
+    "name": "総合リサイクル リュースエコタン小田原店",
+    "chain": "その他大型リサイクル店",
+    "area": "yugawara",
+    "address": "神奈川県小田原市鴨宮749",
+    "nearest": "鴨宮駅から徒歩圏(湯河原から車で約30分)",
+    "categories": [
+      "家具",
+      "家電"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": null,
+    "size": "",
+    "highlight": "",
+    "hours": "9:00〜22:00",
+    "source": "https://www.ekiten.jp/g0521/a14206/",
+    "confidence": "medium"
+  },
+  {
+    "name": "リサイクルフジシロ小田原店",
+    "chain": "その他大型リサイクル店",
+    "area": "yugawara",
+    "address": "神奈川県小田原市扇町2-24-3(国道255号沿い)",
+    "nearest": "湯河原から車で約25分",
+    "categories": [
+      "家具",
+      "家電",
+      "服"
+    ],
+    "fashion_only": false,
+    "super_bazaar": false,
+    "large": true,
+    "size": "売場約300坪",
+    "highlight": "家具・家電・雑貨・衣類・アウトドア用品まで扱う大型店舗(約300坪)。",
+    "hours": "10:00〜19:00",
+    "source": "https://www.recycle-fujishiro.com/odawara/",
+    "confidence": "high"
+  }
+]

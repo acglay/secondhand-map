@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>中古店まとめ(門仲・大船・湯河原)</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 0; background: #f6f5f2; color: #222; }
+  header { position: sticky; top: 0; background: #fff; border-bottom: 1px solid #ddd; padding: 10px 12px; z-index: 1; }
+  h1 { font-size: 17px; margin: 0 0 8px; }
+  .row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 6px; }
+  button.tab { border: 1px solid #bbb; background: #fff; border-radius: 16px; padding: 4px 12px; font-size: 14px; }
+  button.tab.on { background: #333; color: #fff; border-color: #333; }
+  label { font-size: 13px; display: inline-flex; gap: 4px; align-items: center; }
+  input[type=search] { flex: 1; min-width: 140px; padding: 5px 8px; font-size: 14px; }
+  #count { font-size: 12px; color: #666; }
+  main { padding: 10px 12px; max-width: 900px; margin: auto; }
+  h2 { font-size: 15px; margin: 18px 0 6px; }
+  .card { background: #fff; border-radius: 8px; padding: 10px 12px; margin-bottom: 8px; border-left: 5px solid #ccc; }
+  .card.sb { border-left-color: #e8a400; }
+  .card.lg { border-left-color: #3a7bd5; }
+  .card.fa { opacity: .7; }
+  .name { font-weight: 600; font-size: 15px; }
+  .badge { display: inline-block; font-size: 11px; padding: 1px 6px; border-radius: 4px; margin-left: 4px; vertical-align: 1px; }
+  .b-sb { background: #ffe9b0; } .b-lg { background: #d6e6ff; } .b-fa { background: #f3d6e8; } .b-low { background: #eee; color: #a00; }
+  .meta { font-size: 12px; color: #555; margin-top: 3px; }
+  .hl { font-size: 13px; margin-top: 5px; }
+  a { color: #2a5db0; }
+</style>
+</head>
+<body>
+<header>
+  <h1><a id="home" href="https://hub-ashy-delta.vercel.app" style="display:none;text-decoration:none">🏠</a> 中古店まとめ</h1>
+  <div class="row" id="tabs"></div>
+  <div class="row">
+    <label><input type="checkbox" id="fashion"> ファッション専門店も表示</label>
+    <label><input type="checkbox" id="pick"> SB・大型・特徴ありだけ</label>
+  </div>
+  <div class="row">
+    <input type="search" id="q" placeholder="店名・品目で絞る(例: 楽器、古道具)">
+    <span id="count"></span>
+  </div>
+</header>
+<main id="list"></main>
+<script>
+const SHOPS = __DATA__;
+// hub経由(#hub=<token>)で開いたときだけ🏠を出す
+if (/hub=/.test(location.hash)) sessionStorage.setItem("secondhand-map-hub-v1", "1");
+if (sessionStorage.getItem("secondhand-map-hub-v1")) document.getElementById("home").style.display = "";
+const AREAS = { all: "すべて", monnaka: "門前仲町", ofuna: "大船", yugawara: "湯河原" };
+let area = "all";
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const score = (s) => (s.super_bazaar ? 4 : 0) + (s.large ? 2 : 0) + (s.highlight ? 1 : 0);
+
+function render() {
+  const showFashion = $("fashion").checked, pickOnly = $("pick").checked;
+  const q = $("q").value.trim().toLowerCase();
+  const hit = SHOPS.filter((s) =>
+    (area === "all" || s.area === area) &&
+    (showFashion || !s.fashion_only) &&
+    (!pickOnly || score(s) > 0) &&
+    (!q || [s.name, s.chain, s.address, s.highlight, (s.categories || []).join(" ")].join(" ").toLowerCase().includes(q)));
+  $("count").textContent = `${hit.length}件 / 全${SHOPS.length}件`;
+  const groups = Object.keys(AREAS).filter((a) => a !== "all" && (area === "all" || area === a));
+  $("list").innerHTML = groups.map((a) => {
+    const rows = hit.filter((s) => s.area === a).sort((x, y) => score(y) - score(x));
+    if (!rows.length) return "";
+    return `<h2>${AREAS[a]}(${rows.length})</h2>` + rows.map((s) => `
+      <div class="card ${s.super_bazaar ? "sb" : s.large ? "lg" : ""} ${s.fashion_only ? "fa" : ""}">
+        <div class="name">${esc(s.name)}
+          ${s.super_bazaar ? '<span class="badge b-sb">SUPER BAZAAR</span>' : ""}
+          ${s.large ? '<span class="badge b-lg">大型</span>' : ""}
+          ${s.fashion_only ? '<span class="badge b-fa">ファッション専門</span>' : ""}
+          ${s.confidence === "low" ? '<span class="badge b-low">要確認</span>' : ""}
+        </div>
+        <div class="meta">${esc((s.categories || []).join("・"))}${s.size ? " / " + esc(s.size) : ""}</div>
+        ${s.highlight ? `<div class="hl">${esc(s.highlight)}</div>` : ""}
+        <div class="meta">${esc(s.nearest)} ・ ${esc(s.hours)}</div>
+        <div class="meta"><a href="https://www.google.com/maps/search/${encodeURIComponent(s.name + " " + s.address)}" target="_blank">地図</a>
+          ${s.source ? ` ・ <a href="${esc(s.source)}" target="_blank">出典</a>` : ""} ・ ${esc(s.address)}</div>
+      </div>`).join("");
+  }).join("") || "<p>該当なし</p>";
+}
+
+$("tabs").innerHTML = Object.entries(AREAS).map(([k, v]) => `<button class="tab ${k === area ? "on" : ""}" data-a="${k}">${v}</button>`).join("");
+$("tabs").onclick = (e) => {
+  const a = e.target.dataset.a; if (!a) return;
+  area = a;
+  document.querySelectorAll(".tab").forEach((b) => b.classList.toggle("on", b.dataset.a === a));
+  render();
+};
+["fashion", "pick", "q"].forEach((id) => $(id).addEventListener("input", render));
+render();
+</script>
+</body>
+</html>
