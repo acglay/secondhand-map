@@ -118,7 +118,7 @@ function card(s) {
   return `<div class="card ${s.mega ? "mg" : s.super_bazaar ? "sb" : s.large ? "lg" : ""} ${s.fashion_only ? "fa" : ""}">
     ${here ? `<span class="dist">${distLabel(s)}</span>` : ""}
     <div class="name">${esc(s.name)} ${badges(s)}</div>
-    ${s.floor_m2 ? `<div class="meta"><b>${floor(s)}</b>${s.floor_source ? ` <a href="${esc(s.floor_source)}" target="_blank" title="${esc(s.floor_note)}">根拠</a>` : ""}</div>` : ""}
+    ${s.floor_m2 ? `<div class="meta"><b>${floor(s)}</b>${s.floor_source ? ` <a href="${esc(s.floor_source)}" target="_blank" title="${esc(s.floor_note)}">根拠</a>` : /^ユーザー情報/.test(s.floor_note || "") ? ` <span title="${esc(s.floor_note)}">(ユーザー情報)</span>` : ""}</div>` : ""}
     <div class="meta">${esc((s.categories || []).join("・"))}${s.size ? " / " + esc(s.size) : ""}</div>
     ${s.highlight ? `<div class="hl">${esc(s.highlight)}</div>` : ""}
     ${parking(s)}

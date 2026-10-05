@@ -199,7 +199,7 @@
     "fashion_only": false,
     "super_bazaar": false,
     "large": false,
-    "size": "",
+    "size": "敷地 約1,500坪(駐車場込み・ユーザー情報2026-10)。売場面積は未確認",
     "highlight": "山梨県の万代書店本店。中央道・中部横断道のICからアクセスしやすい郊外立地。",
     "hours": "9:30〜24:00(年中無休)",
     "source": "https://mandai-shop.jp/yamanashi/access",
@@ -233,7 +233,7 @@
     ],
     "fashion_only": false,
     "super_bazaar": false,
-    "large": false,
+    "large": true,
     "size": "",
     "highlight": "24時間営業のお宝系ショップ。アパレル館・プライズ館など複合展開。",
     "hours": "24時間営業(年中無休)",
@@ -245,10 +245,13 @@
     "parking_ease": "easy",
     "parking_note": "140台との記載(第三者サイト、公式サイトはcert証明書エラーで直接確認不可)",
     "parking_source": "https://www.navitime.co.jp/poi?spot=02022-1387866",
-    "mega": false,
+    "mega": true,
     "lng": 139.380005,
     "lat": 35.626553,
-    "geo_title": "東京都八王子市下柚木二丁目３番"
+    "geo_title": "東京都八王子市下柚木二丁目３番",
+    "floor_m2": 1944,
+    "floor_source": "",
+    "floor_note": "ユーザー情報(2026-10): 1,944㎡(約588坪)"
   },
   {
     "name": "ぐるぐる大帝国 入間店",
@@ -335,7 +338,7 @@
     ],
     "fashion_only": false,
     "super_bazaar": false,
-    "large": false,
+    "large": true,
     "size": "",
     "highlight": "24時間営業のお宝系ショップ。他の大帝国チェーンと同様の複合展開。",
     "hours": "24時間営業(年中無休)",
@@ -347,10 +350,13 @@
     "parking_ease": "easy",
     "parking_note": "台数の記載が140台/250台と情報源により異なり、公式での確認は未達成",
     "parking_source": "https://arukuhana.uchiyakeiblog.com/entry/%E3%81%90%E3%82%8B%E3%81%90%E3%82%8B%E5%A4%A7%E5%B8%9D%E5%9B%BD",
-    "mega": false,
+    "mega": true,
     "lng": 139.871475,
     "lat": 36.289623,
-    "geo_title": "茨城県結城市"
+    "geo_title": "茨城県結城市",
+    "floor_m2": 1775,
+    "floor_source": "",
+    "floor_note": "ユーザー情報(2026-10): 1,775㎡(約537坪)"
   },
   {
     "name": "ぐるぐる大帝国 牛久店",
@@ -472,7 +478,7 @@
     ],
     "fashion_only": false,
     "super_bazaar": false,
-    "large": false,
+    "large": true,
     "size": "",
     "highlight": "千葉鑑定団グループの酒々井店。9時開店と早め。",
     "hours": "9:00〜24:00(年中無休)",
@@ -484,10 +490,13 @@
     "parking_ease": null,
     "parking_note": "公式サイトに駐車場の記載なし",
     "parking_source": "https://chibakan.com/?page_id=60",
-    "mega": false,
+    "mega": true,
     "lng": 140.261734,
     "lat": 35.718624,
-    "geo_title": "千葉県酒々井町上本佐倉１３０番地"
+    "geo_title": "千葉県酒々井町上本佐倉１３０番地",
+    "floor_m2": 2975,
+    "floor_source": "",
+    "floor_note": "ユーザー情報(2026-10): 900坪(上本佐倉130-1)。千葉県大店立地法名簿の「(株)トクジロー酒々井店【千葉鑑定団酒々井店】」2,971㎡とほぼ一致"
   },
   {
     "name": "千葉鑑定団 松戸店",
