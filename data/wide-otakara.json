@@ -32,7 +32,10 @@
     "mega": true,
     "lng": 139.492798,
     "lat": 35.928181,
-    "geo_title": "埼玉県川越市城下町１１番地"
+    "geo_title": "埼玉県川越市城下町１１番地",
+    "floor_m2": 1954,
+    "floor_source": "https://www.pref.saitama.lg.jp/documents/15236/03shityousonbetutenpoitiran_r8.pdf",
+    "floor_note": "埼玉県「大規模小売店舗名簿(市町村別店舗一覧・令和8年4月)」の届出店舗面積。届出名称は「万代書店川越店(ラオックス川越店)」、所在地「城下町12-1」(本データの城下町11-1と近接・同一建物とみられる)、新設H25.03。1,954㎡=約591坪。別のAI(Gemini)が述べた「約850坪」とは不一致(実際は約591坪)。"
   },
   {
     "name": "万代書店 熊谷店",
@@ -64,10 +67,13 @@
     "parking_ease": "ok",
     "parking_note": "無料駐車場ありとの情報だが正確な台数は未確認",
     "parking_source": "https://hikakaku.com/company/748/shops/8235/",
-    "mega": false,
+    "mega": true,
     "lng": 139.392746,
     "lat": 36.163971,
-    "geo_title": "埼玉県熊谷市肥塚６４２番地"
+    "geo_title": "埼玉県熊谷市肥塚６４２番地",
+    "floor_m2": 1790,
+    "floor_source": "https://www.pref.saitama.lg.jp/documents/15236/03shityousonbetutenpoitiran_r8.pdf",
+    "floor_note": "埼玉県「大規模小売店舗名簿(市町村別店舗一覧・令和8年4月)」の届出店舗面積。所在地「大字肥塚642-1外」(本データと一致)、新設S63.07。1,790㎡=約541坪。"
   },
   {
     "name": "万代書店 岩槻店",
@@ -98,10 +104,13 @@
     "parking_ease": "ok",
     "parking_note": "無料・広いとの口コミ多数だが正確な台数は公式未記載",
     "parking_source": "https://www.ekiten.jp/shop_480572/access/",
-    "mega": false,
+    "mega": true,
     "lng": 139.698471,
     "lat": 35.942486,
-    "geo_title": "埼玉県さいたま市岩槻区東町一丁目８番１１号"
+    "geo_title": "埼玉県さいたま市岩槻区東町一丁目８番１１号",
+    "floor_m2": 1467,
+    "floor_source": "https://www.pref.saitama.lg.jp/documents/15236/03shityousonbetutenpoitiran_r8.pdf",
+    "floor_note": "埼玉県「大規模小売店舗名簿(市町村別店舗一覧・令和8年4月)」の届出店舗面積。届出名称は「万代書店(朝日無線電機岩槻店)」、所在地「岩槻区東町1-8-11」(本データと一致)、新設S62.04。1,467㎡=約444坪。Geminiが述べた「約950坪」とは大きく不一致(実際は約444坪)。"
   },
   {
     "name": "万代書店 前橋店",
@@ -509,10 +518,13 @@
     "parking_ease": null,
     "parking_note": "公式サイトに駐車場の記載なし",
     "parking_source": "https://chibakan.com/?page_id=60",
-    "mega": false,
+    "mega": true,
     "lng": 139.895737,
     "lat": 35.809765,
-    "geo_title": "千葉県松戸市栄町西二丁目８６５番地"
+    "geo_title": "千葉県松戸市栄町西二丁目８６５番地",
+    "floor_m2": 1147,
+    "floor_source": "https://www.pref.chiba.lg.jp/keishi/daiten/meibo/documents/r601zenken.pdf",
+    "floor_note": "千葉県「市町村別大規模小売店舗名簿」(令和6年12月末時点)の届出店舗面積。所在地「松戸市栄町西二丁目865番ほか」が本データと一致。1,147㎡=約347坪。"
   },
   {
     "name": "千葉鑑定団 千葉中央店",
@@ -581,7 +593,10 @@
     "mega": true,
     "lng": 140.117981,
     "lat": 35.714005,
-    "geo_title": "千葉県八千代市勝田台南一丁目１８番１号"
+    "geo_title": "千葉県八千代市勝田台南一丁目１８番１号",
+    "floor_m2": 5582,
+    "floor_source": "https://www.pref.chiba.lg.jp/keishi/daiten/meibo/documents/r601zenken.pdf",
+    "floor_note": "千葉県「市町村別大規模小売店舗名簿」(令和6年12月末時点)の届出店舗面積。所在地「八千代市勝田台1丁目3423番地10【勝田台南1-18-1】」が本データの住所と一致。5,582㎡=約1,688坪。Geminiが述べた「約1,500坪超(1〜3階)」とは方向性は一致するが実際はさらに大きい(約1,688坪、階数は1F・2Fの2層と公式記載)。"
   },
   {
     "name": "千葉鑑定団 東金店",
