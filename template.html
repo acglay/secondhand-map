@@ -28,7 +28,7 @@
   .name { font-weight: 600; font-size: 15px; }
   .dist { float: right; font-size: 13px; font-weight: 600; color: #a60; }
   .badge { display: inline-block; font-size: 11px; padding: 1px 6px; border-radius: 4px; margin-left: 4px; vertical-align: 1px; }
-  .b-mg { background: #f8c9c4; } .b-sb { background: #ffe9b0; } .b-lg { background: #d6e6ff; } .b-fa { background: #f3d6e8; } .b-low { background: #eee; color: #a00; }
+  .b-ot { background: #e3d4f5; } .b-mg { background: #f8c9c4; } .b-sb { background: #ffe9b0; } .b-lg { background: #d6e6ff; } .b-fa { background: #f3d6e8; } .b-low { background: #eee; color: #a00; }
   .b-p-easy { background: #cfeccf; } .b-p-ok { background: #e6f0c8; } .b-p-hard { background: #f6e3c6; } .b-p-none { background: #eee; color: #777; }
   .meta { font-size: 12px; color: #555; margin-top: 3px; }
   .hl { font-size: 13px; margin-top: 5px; }
@@ -50,6 +50,7 @@
   </div>
   <div class="row">
     <label><input type="checkbox" id="mega"> 🏬 超大型だけ</label>
+    <label><input type="checkbox" id="otakara"> 🎁 お宝系だけ</label>
     <label><input type="checkbox" id="pick"> SB・大型・特徴ありだけ</label>
     <label><input type="checkbox" id="car"> 🅿 車で行ける店だけ</label>
     <label><input type="checkbox" id="fashion"> ファッション専門店も表示</label>
@@ -74,6 +75,9 @@ let area = "all", view = "list", here = null; // here = [lat, lng]
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const score = (s) => (s.mega ? 8 : 0) + (s.super_bazaar ? 4 : 0) + (s.large ? 2 : 0) + (s.highlight ? 1 : 0);
+// 並び順: 超大型→売場面積の広い順→格付け(score)
+const rank = (x, y) => (y.mega ? 1 : 0) - (x.mega ? 1 : 0) || (y.floor_m2 || 0) - (x.floor_m2 || 0) || score(y) - score(x);
+const floor = (s) => s.floor_m2 ? `売場 約${Math.round(s.floor_m2).toLocaleString()}㎡(約${Math.round(s.floor_m2 / 3.306).toLocaleString()}坪)` : "";
 const km = (s) => {
   if (!here || s.lat == null) return Infinity;
   const t = Math.PI / 180, x = Math.sin((s.lat - here[0]) * t / 2) ** 2 +
@@ -88,6 +92,7 @@ function filtered() {
     (area === "all" || s.area === area) &&
     ($("fashion").checked || !s.fashion_only) &&
     (!$("mega").checked || s.mega) &&
+    (!$("otakara").checked || s.otakara) &&
     (!$("pick").checked || score(s) > 0) &&
     (!$("car").checked || s.parking_ease === "easy" || s.parking_ease === "ok") &&
     (!q || [s.name, s.chain, s.address, s.highlight, (s.categories || []).join(" ")].join(" ").toLowerCase().includes(q)));
@@ -96,6 +101,7 @@ function filtered() {
 function badges(s) {
   return (s.mega ? '<span class="badge b-mg">超大型</span>' : "") +
     (s.super_bazaar ? '<span class="badge b-sb">SUPER BAZAAR</span>' : "") +
+    (s.otakara ? '<span class="badge b-ot">お宝系</span>' : "") +
     (s.large && !s.mega ? '<span class="badge b-lg">大型</span>' : "") +
     (s.fashion_only ? '<span class="badge b-fa">ファッション専門</span>' : "") +
     (s.confidence === "low" ? '<span class="badge b-low">要確認</span>' : "");
@@ -112,6 +118,7 @@ function card(s) {
   return `<div class="card ${s.mega ? "mg" : s.super_bazaar ? "sb" : s.large ? "lg" : ""} ${s.fashion_only ? "fa" : ""}">
     ${here ? `<span class="dist">${distLabel(s)}</span>` : ""}
     <div class="name">${esc(s.name)} ${badges(s)}</div>
+    ${s.floor_m2 ? `<div class="meta"><b>${floor(s)}</b>${s.floor_source ? ` <a href="${esc(s.floor_source)}" target="_blank" title="${esc(s.floor_note)}">根拠</a>` : ""}</div>` : ""}
     <div class="meta">${esc((s.categories || []).join("・"))}${s.size ? " / " + esc(s.size) : ""}</div>
     ${s.highlight ? `<div class="hl">${esc(s.highlight)}</div>` : ""}
     ${parking(s)}
@@ -127,7 +134,7 @@ function renderList(hit) {
   }
   const groups = Object.keys(AREAS).filter((a) => a !== "all" && (area === "all" || area === a));
   $("list").innerHTML = groups.map((a) => {
-    const rows = hit.filter((s) => s.area === a).sort((x, y) => score(y) - score(x));
+    const rows = hit.filter((s) => s.area === a).sort(rank);
     return rows.length ? `<h2>${AREAS[a]}(${rows.length})</h2>` + rows.map(card).join("") : "";
   }).join("") || "<p>該当なし</p>";
 }
@@ -150,7 +157,7 @@ function renderMap(hit) {
     if (s.lat == null) continue;
     pts.push([s.lat, s.lng]);
     L.circleMarker([s.lat, s.lng], { radius: s.mega ? 11 : s.large ? 8 : 6, color: "#fff", weight: 2, fillColor: color(s), fillOpacity: .95 })
-      .bindPopup(`<b>${esc(s.name)}</b> ${distLabel(s)}<br>${badges(s)}${parking(s)}<div class="meta">${esc(s.hours)}</div><div class="meta">${links(s)}</div>`)
+      .bindPopup(`<b>${esc(s.name)}</b> ${distLabel(s)}<br>${badges(s)}${s.floor_m2 ? `<div class="meta"><b>${floor(s)}</b></div>` : ""}${parking(s)}<div class="meta">${esc(s.hours)}</div><div class="meta">${links(s)}</div>`)
       .addTo(layer);
   }
   if (here) {
@@ -199,7 +206,7 @@ $("near").onclick = () => {
   }, (e) => { $("geo").textContent = "現在地を取得できませんでした(" + e.message + ")"; }, { enableHighAccuracy: true, timeout: 10000 });
 };
 $("mega").parentElement.title = MEGA_NOTE;
-["fashion", "pick", "car", "mega", "q"].forEach((id) => $(id).addEventListener("input", render));
+["fashion", "pick", "car", "mega", "otakara", "q"].forEach((id) => $(id).addEventListener("input", render));
 render();
 </script>
 </body>

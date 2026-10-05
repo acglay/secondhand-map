@@ -381,7 +381,10 @@
     "mega": true,
     "lng": 139.15892,
     "lat": 35.270172,
-    "geo_title": "神奈川県小田原市扇町二丁目２４番３号"
+    "geo_title": "神奈川県小田原市扇町二丁目２４番３号",
+    "floor_m2": 992,
+    "floor_source": "https://www.recycle-fujishiro.com/odawara/",
+    "floor_note": "坪数からの換算(出典はsource)"
   },
   {
     "name": "アンティカートゆがわら",

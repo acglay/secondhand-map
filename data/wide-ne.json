@@ -88,7 +88,7 @@
     "super_bazaar": true,
     "large": true,
     "size": "BOOKOFF SUPER BAZAAR(全店が大型複合店)",
-    "highlight": "前橋リリカ3F全フロアの大型複合リユース店。ハイブランド売場も併設。",
+    "highlight": "前橋リリカ3F全フロアの大型複合リユース店。ハイブランド売場も併設。ブックオフグループ最大・日本一広いブックオフ。",
     "hours": "10:00〜21:00(ハイブランド売場10:00〜19:00)",
     "source": "https://www.bookoff.co.jp/shop/shop20459.html",
     "confidence": "high",
@@ -98,6 +98,9 @@
     "parking_ease": "easy",
     "parking_note": "前橋リリカ駐車場1027台(無料)",
     "parking_source": "https://www.bookoff.co.jp/shop/shop20459.html",
+    "floor_m2": 5843.04,
+    "floor_source": "https://www.ryutsuu.biz/backnumber/store/d120818.html",
+    "floor_note": "開店時(2011年11月、公式プレスリリース)で売場面積1,767坪(5,843.04㎡)、ブックオフグループ最大の店舗。Geminiの主張(約5,851㎡/1,767坪、日本一)とほぼ一致。",
     "mega": true,
     "lng": 139.067383,
     "lat": 36.404095,
@@ -430,7 +433,7 @@
     "super_bazaar": true,
     "large": true,
     "size": "BOOKOFF SUPER BAZAAR(全店が大型複合店)",
-    "highlight": "大型商業施設ららぽーとTOKYO-BAY内の大型複合リユース店。",
+    "highlight": "大型商業施設ららぽーとTOKYO-BAY内の大型複合リユース店。旧名「ビビット南船橋店」、開店時(2012年)は全国のブックオフ中最大級の売場面積と報じられた。",
     "hours": "平日10:00〜20:00/土日祝10:00〜21:00",
     "source": "https://www.bookoff.co.jp/shop/shop20462.html",
     "confidence": "high",
@@ -440,6 +443,9 @@
     "parking_ease": "ok",
     "parking_note": "ららぽーとTOKYO-BAY共用駐車場1540台。料金の明記なし",
     "parking_source": "https://www.bookoff.co.jp/shop/shop20462.html",
+    "floor_m2": 4873.04,
+    "floor_source": "https://funabashi.keizai.biz/headline/196/",
+    "floor_note": "開店時(2012年4月、船橋経済新聞)で総売場面積1,474坪(坪数からの換算)、「全国最大規模」と記載。この店舗は施設名称変更(ビビットスクエア→ららぽーとTOKYO-BAY North Gate、2025年10月)後の現在名で、同一店舗。Geminiが別名で挙げた「ビビット南船橋店」は閉店・別店ではなくこのエントリと同一店と確認。売場面積は約4,870㎡/55万点というGemini主張とおおむね一致(55万点は未確認)。2026年6月7日にホビー・雑貨売場拡大のリニューアルがあり現在値は未確認。",
     "mega": true,
     "lng": 139.992218,
     "lat": 35.687626,
@@ -782,6 +788,9 @@
     "mega": true,
     "lng": 139.680695,
     "lat": 35.872879,
-    "geo_title": "埼玉県さいたま市緑区中尾３３３番地"
+    "geo_title": "埼玉県さいたま市緑区中尾３３３番地",
+    "floor_m2": 1322,
+    "floor_source": "https://www.treasure-f.com/shop/485/",
+    "floor_note": "坪数からの換算(出典はsource)"
   }
 ]

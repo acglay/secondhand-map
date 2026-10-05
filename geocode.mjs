@@ -18,7 +18,8 @@ const clean = (addr) => addr.replace(/[((].*?[))]/g, "").split(/[\s ]/)[0].repla
 
 // 超大型: SUPER BAZAAR / 公式に売場300坪以上 / ハードオフとオフハウスが同一施設
 function isMega(s, all) {
-  if (s.area === "wide") return true; // 遠征枠は巨大店の基準で集めた店だけ
+  // 遠征枠: 大型の根拠がありファッション専門でない店(お宝系の小型店・KOMEHYO等は外れる)
+  if (s.area === "wide") return s.large === true && !s.fashion_only;
   if (s.super_bazaar) return true;
   const tsubo = Number((s.size || "").match(/(\d+)\s*坪/)?.[1] || 0);
   if (tsubo >= 300) return true;
