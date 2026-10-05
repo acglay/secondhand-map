@@ -580,8 +580,8 @@
     "hours": "10:00〜20:00",
     "source": "https://netmall.hardoff.co.jp/shop/203082/",
     "confidence": "medium",
-    "parking": "unknown",
-    "parking_count": null,
+    "parking": "yes",
+    "parking_count": 147,
     "parking_fee": null,
     "parking_ease": "ok",
     "parking_note": "駐車場の台数・料金の公式記載を確認できず",
@@ -589,7 +589,10 @@
     "mega": true,
     "lng": 139.843887,
     "lat": 36.516006,
-    "geo_title": "栃木県宇都宮市西川田本町三丁目１番１号"
+    "geo_title": "栃木県宇都宮市西川田本町三丁目１番１号",
+    "floor_m2": 2712,
+    "floor_source": "",
+    "floor_note": "ユーザー情報(2026-10): 大店立地法の届出「エコ・タウン宇都宮」店舗面積2,712㎡(約820坪)・新設2003-06-12・駐車147台"
   },
   {
     "name": "ハードオフ・オフハウス・ホビーオフ・ブックオフ 龍ケ崎店",
@@ -611,7 +614,7 @@
     "super_bazaar": false,
     "large": true,
     "size": "ハードオフ・オフハウス・ホビーオフ・ブックオフの4業態が同一施設に同居する複合大型店(モール共用駐車場549台)",
-    "highlight": "2026年9月18日グランドオープン。公式Xで「でっかくオープン」と紹介された新しい4業態複合の大型店。",
+    "highlight": "2026年9月18日グランドオープン。公式Xで「でっかくオープン」と紹介された新しい4業態複合の大型店。 ホームセンターカンセキ龍ケ崎店内、通常店舗の約2倍の売場の大型複合店。",
     "hours": "10:00〜19:30",
     "source": "https://www.hardoff.co.jp/shop/detail/?p=201471",
     "confidence": "high",
@@ -624,7 +627,10 @@
     "mega": true,
     "lng": 140.197083,
     "lat": 35.905907,
-    "geo_title": "茨城県龍ケ崎市光順田１７５０番地"
+    "geo_title": "茨城県龍ケ崎市光順田１７５０番地",
+    "floor_m2": 1647,
+    "floor_source": "",
+    "floor_note": "ユーザー情報(2026-10): 売場1,647㎡(498坪)・4ブランド合計"
   },
   {
     "name": "ハードオフ・オフハウス・ホビーオフ おゆみ野店",

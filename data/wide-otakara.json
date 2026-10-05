@@ -198,8 +198,8 @@
     ],
     "fashion_only": false,
     "super_bazaar": false,
-    "large": false,
-    "size": "敷地 約1,500坪(駐車場込み・ユーザー情報2026-10)。売場面積は未確認",
+    "large": true,
+    "size": "敷地 約1,500坪(駐車場込み)・売場は少なくとも400〜500坪(ユーザー推定2026-10)",
     "highlight": "山梨県の万代書店本店。中央道・中部横断道のICからアクセスしやすい郊外立地。",
     "hours": "9:30〜24:00(年中無休)",
     "source": "https://mandai-shop.jp/yamanashi/access",
@@ -210,7 +210,7 @@
     "parking_ease": "easy",
     "parking_note": "200台との記載あり(第三者サイト経由、公式ページに台数記載なし)",
     "parking_source": "https://www.ekiten.jp/shop_2695863/",
-    "mega": false,
+    "mega": true,
     "lng": 138.51004,
     "lat": 35.638584,
     "geo_title": "山梨県甲斐市西八幡４４１５番地"
@@ -738,10 +738,13 @@
     "parking_ease": "easy",
     "parking_note": "公式サイトに「共用167台(無料)」と記載",
     "parking_source": "https://www.treasure-f.com/shop/700/access.html",
-    "mega": false,
+    "mega": true,
     "lng": 140.180679,
     "lat": 35.546162,
-    "geo_title": "千葉県千葉市緑区おゆみ野中央九丁目６番"
+    "geo_title": "千葉県千葉市緑区おゆみ野中央九丁目６番",
+    "floor_m2": 2600,
+    "floor_source": "",
+    "floor_note": "ユーザー情報(2026-10): 店舗面積 約2,600㎡"
   },
   {
     "name": "KOMEHYO 新宿店",
