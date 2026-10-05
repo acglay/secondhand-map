@@ -68,7 +68,7 @@ const SHOPS = __DATA__;
 if (/hub=/.test(location.hash)) sessionStorage.setItem("secondhand-map-hub-v1", "1");
 if (sessionStorage.getItem("secondhand-map-hub-v1")) document.getElementById("home").style.display = "";
 
-const AREAS = { all: "すべて", monnaka: "門前仲町", ofuna: "大船", yugawara: "湯河原", wide: "🚗 遠征(巨大店)" };
+const AREAS = { all: "すべて", monnaka: "門前仲町", ofuna: "大船", yugawara: "湯河原", wide: "🚗 遠征(巨大店)", far: "🗾 全国の名店" };
 const PARK = { easy: "🅿◎ 停めやすい", ok: "🅿○ 駐車場あり", hard: "🅿△ 停めにくい", none: "🅿✕ 駐車場なし" };
 const MEGA_NOTE = "超大型 = SUPER BAZAAR / 売場300坪以上 / ハードオフとオフハウスが同じ施設 / 遠征枠の巨大店";
 let area = "all", view = "list", here = null; // here = [lat, lng]
@@ -166,6 +166,8 @@ function renderMap(hit) {
     const near5 = hit.filter((s) => s.lat != null).sort((a, b) => km(a) - km(b)).slice(0, 5).map((s) => [s.lat, s.lng]);
     map.fitBounds(L.latLngBounds([here, ...near5]).pad(0.2));
   } else if (pts.length) {
+    // 「すべて」の初期表示は全国の名店を除いた範囲(関東周辺)に合わせる
+    if (area === "all") { const near = hit.filter((s) => s.lat != null && s.area !== "far").map((s) => [s.lat, s.lng]); if (near.length) { map.fitBounds(L.latLngBounds(near).pad(0.1)); return; } }
     map.fitBounds(L.latLngBounds(pts).pad(0.1));
   }
 }

@@ -5,7 +5,7 @@ import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 // data/ 内の全JSON(monnaka / ofuna / yugawara / wide-*.json)
 const FILES = readdirSync(new URL("./data/", import.meta.url)).filter((f) => f.endsWith(".json")).map((f) => f.replace(/\.json$/, ""));
 // 距離チェックの基準点(遠征=wide は門仲からの距離を表示するだけで警告しない)
-const BASE = { monnaka: [35.6717, 139.7958], ofuna: [35.3537, 139.5313], yugawara: [35.1460, 139.1083], wide: [35.6717, 139.7958] };
+const BASE = { monnaka: [35.6717, 139.7958], ofuna: [35.3537, 139.5313], yugawara: [35.1460, 139.1083], wide: [35.6717, 139.7958], far: [35.6717, 139.7958] };
 const force = process.argv.includes("--force");
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const km = ([a, b], [c, d]) => {
@@ -19,7 +19,7 @@ const clean = (addr) => addr.replace(/[((].*?[))]/g, "").split(/[\s ]/)[0].repla
 // 超大型: SUPER BAZAAR / 公式に売場300坪以上 / ハードオフとオフハウスが同一施設
 function isMega(s, all) {
   // 遠征枠: 大型の根拠がありファッション専門でない店(お宝系の小型店・KOMEHYO等は外れる)
-  if (s.area === "wide") return s.large === true && !s.fashion_only;
+  if (s.area === "wide" || s.area === "far") return s.large === true && !s.fashion_only;
   if (s.super_bazaar) return true;
   const tsubo = Number((s.size || "").match(/(\d+)\s*坪/)?.[1] || 0);
   if (tsubo >= 300) return true;
@@ -50,7 +50,7 @@ for (const file of FILES) {
       s.geo_title = "";
     }
     const d = s.lat ? km(BASE[area], [s.lat, s.lng]) : NaN;
-    console.log(`${(d > 35 && area !== "wide") || !s.lat ? "!" : " "} ${area} ${d.toFixed(1)}km | ${s.name} | ${q} -> ${s.geo_title}`);
+    console.log(`${(d > 35 && area !== "wide" && area !== "far") || !s.lat ? "!" : " "} ${area} ${d.toFixed(1)}km | ${s.name} | ${q} -> ${s.geo_title}`);
     await sleep(300);
   }
   writeFileSync(path, JSON.stringify(shops, null, 2));

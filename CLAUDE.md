@@ -4,7 +4,7 @@
 家族の拠点(門前仲町・大船・湯河原)から行けるブックオフ/ハードオフ系などの中古店一覧。BOOKOFF SUPER BAZAAR・大型店・品揃えが特徴的な店を上に出す。ファッション専門店は載せるが既定で非表示(チェックで表示)。
 
 ## 構成(素のHTML、ビルドツールなし)
-- `data/<area>.json` — 店データ(area: monnaka / ofuna / yugawara / wide。wide=関東一円+山梨・静岡東部の遠征枠(data/wide-*.json)。mega=large:trueかつファッション専門でない店。wide-otakara.json=お宝系(otakara:true)。floor_m2/floor_source/floor_note=一次情報で確かめた売場面積(AIの数値は使わない))。フィールド: name, chain, area, address, nearest, categories[], fashion_only, super_bazaar, large, size, highlight, hours, source, confidence(high|medium|low。lowは「要確認」バッジ)、parking(yes|no|unknown), parking_count, parking_fee(free|paid|conditional), parking_ease(easy|ok|hard|none。基準: easy=無料かつ平面or30台以上 / ok=有料・条件付き or 無料10〜29台 / hard=9台以下 or 都心ビル / none=専用なし), parking_note, parking_source
+- `data/<area>.json` — 店データ(area: monnaka / ofuna / yugawara / wide。wide=関東一円+山梨・静岡東部の遠征枠(data/wide-*.json)。mega=large:trueかつファッション専門でない店。wide-otakara.json=お宝系(otakara:true)。far=関東外の特筆すべき店(data/far.json・全国の名店タブ)。floor_m2/floor_source/floor_note=一次情報で確かめた売場面積(AIの数値は使わない))。フィールド: name, chain, area, address, nearest, categories[], fashion_only, super_bazaar, large, size, highlight, hours, source, confidence(high|medium|low。lowは「要確認」バッジ)、parking(yes|no|unknown), parking_count, parking_fee(free|paid|conditional), parking_ease(easy|ok|hard|none。基準: easy=無料かつ平面or30台以上 / ok=有料・条件付き or 無料10〜29台 / hard=9台以下 or 都心ビル / none=専用なし), parking_note, parking_source
 - `template.html` — 画面。`__DATA__` にデータが埋め込まれる
 - `build.mjs` — data/*.json → `index.html`(生成物。直接編集しない)
 - `geocode.mjs` — 住所→緯度経度(国土地理院API)と超大型フラグ mega を data に書き込む。店を足したら `node geocode.mjs` → `node build.mjs`
