@@ -32,9 +32,9 @@
     "parking_ease": "ok",
     "parking_note": "西友大森の駐車場151台。2,000円以上購入で2時間無料、以降200円/30分",
     "parking_source": "https://www.bookoff.co.jp/shop/shop20508.html",
-    "floor_m2": 1758.8,
-    "floor_source": "https://www.bookoffgroup.co.jp/bookoff-super-bazaar-%E8%A5%BF%E5%8F%8B%E5%A4%A7%E6%A3%AE%E5%BA%97%E3%80%80%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",
-    "floor_note": "公式プレスリリース(2017年5月開店)で売場面積532坪(坪数からの換算)。Geminiの主張(約3,300㎡・23区最大)は不一致: 公式は532坪≈1,759㎡で、約半分の規模。「23区最大」の記述も公式ページ上では確認できず。",
+    "floor_m2": 2072.4,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)(以前の値 1759㎡: 公式プレスリリース(2017年5月開店)で売場面積532坪(坪数からの換算)。Geminiの主張(約3,300㎡・23区最大)は不一致: 公式は532坪≈1,759㎡で、約半分の規模。「23区最大」の記述も公式ページ上では確認できず。)",
     "mega": true,
     "lng": 139.729919,
     "lat": 35.588146,
@@ -76,7 +76,10 @@
     "mega": true,
     "lng": 139.414261,
     "lat": 35.699867,
-    "geo_title": "東京都立川市曙町二丁目７番１７号"
+    "geo_title": "東京都立川市曙町二丁目７番１７号",
+    "floor_m2": 1953.6,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 町田中央通り店(本・ホビー館)",
@@ -110,7 +113,10 @@
     "mega": true,
     "lng": 139.448608,
     "lat": 35.542175,
-    "geo_title": "東京都町田市原町田四丁目４番８号"
+    "geo_title": "東京都町田市原町田四丁目４番８号",
+    "floor_m2": 2356.2,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 町田中央通り店(アパレル館)",
@@ -144,7 +150,10 @@
     "mega": true,
     "lng": 139.449707,
     "lat": 35.541237,
-    "geo_title": "東京都町田市原町田四丁目７番９号"
+    "geo_title": "東京都町田市原町田四丁目７番９号",
+    "floor_m2": 943.8,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 多摩永山店",
@@ -182,7 +191,10 @@
     "mega": true,
     "lng": 139.443176,
     "lat": 35.613747,
-    "geo_title": "東京都多摩市永山六丁目２９番"
+    "geo_title": "東京都多摩市永山六丁目２９番",
+    "floor_m2": 4778.4,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR イトーヨーカドー八王子店",
@@ -223,7 +235,10 @@
     "mega": true,
     "lng": 139.292969,
     "lat": 35.637585,
-    "geo_title": "東京都八王子市狭間町１４６２番地"
+    "geo_title": "東京都八王子市狭間町１４６２番地",
+    "floor_m2": 2710,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "ハードオフ/オフハウス/ホビーオフ/リカーオフ 八王子大和田店",
@@ -333,7 +348,10 @@
     "mega": true,
     "lng": 139.579468,
     "lat": 35.553181,
-    "geo_title": "神奈川県横浜市都筑区中川中央一丁目２５番１号"
+    "geo_title": "神奈川県横浜市都筑区中川中央一丁目２５番１号",
+    "floor_m2": 2956.8,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 川崎モアーズ店",
@@ -372,7 +390,10 @@
     "mega": true,
     "lng": 139.699875,
     "lat": 35.530628,
-    "geo_title": "神奈川県川崎市川崎区駅前本町７番地"
+    "geo_title": "神奈川県川崎市川崎区駅前本町７番地",
+    "floor_m2": 2046,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 国道1号多摩川大橋店",
@@ -412,7 +433,10 @@
     "mega": true,
     "lng": 139.694138,
     "lat": 35.549454,
-    "geo_title": "神奈川県川崎市幸区小向町５番"
+    "geo_title": "神奈川県川崎市幸区小向町５番",
+    "floor_m2": 1877.7,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 綱島樽町店",
@@ -449,12 +473,13 @@
     "parking_ease": "ok",
     "parking_note": "駐車場240台。有料/無料の明記は確認できず",
     "parking_source": "https://www.bookoff.co.jp/shop/shop20467.html",
-    "floor_note": "正確な㎡・坪数は非公表のためfloor_m2は未記載。タウンニュース(地域紙2026-09-17)は「ブックオフ内で第2位の敷地面積を誇る日本最大級の超大型店」と明記、別館名は「本・トレカ館」(神奈川県横浜市港北区樽町3-12-26、書籍売場を約25%拡大)。Geminiの主張(約4,600㎡・日本2番目)のうち「日本2番目」のランキングは一致を確認、㎡の数値は未確認。",
-    "floor_source": "https://www.townnews.co.jp/0103/2026/09/17/852696.html",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)",
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
     "mega": true,
     "lng": 139.641342,
     "lat": 35.531578,
-    "geo_title": "神奈川県横浜市港北区樽町三丁目１２番２５号"
+    "geo_title": "神奈川県横浜市港北区樽町三丁目１２番２５号",
+    "floor_m2": 4580.4
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 409号川崎港町店",
@@ -494,7 +519,10 @@
     "mega": true,
     "lng": 139.718491,
     "lat": 35.533859,
-    "geo_title": "神奈川県川崎市川崎区港町１２番"
+    "geo_title": "神奈川県川崎市川崎区港町１２番",
+    "floor_m2": 4722.3,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 横浜瀬谷南台店(本・リユース館)",
@@ -530,7 +558,10 @@
     "mega": true,
     "lng": 139.487335,
     "lat": 35.463871,
-    "geo_title": "神奈川県横浜市瀬谷区南台一丁目４５番"
+    "geo_title": "神奈川県横浜市瀬谷区南台一丁目４５番",
+    "floor_m2": 2184.6,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 横浜瀬谷南台店(ホビー・トレカ館)",
@@ -565,7 +596,10 @@
     "mega": true,
     "lng": 139.487335,
     "lat": 35.463871,
-    "geo_title": "神奈川県横浜市瀬谷区南台一丁目４５番"
+    "geo_title": "神奈川県横浜市瀬谷区南台一丁目４５番",
+    "floor_m2": 429,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "スーパーセカンドストリート マーケットスクエア川崎イースト店",
@@ -719,8 +753,8 @@
     "lat": 35.657501,
     "geo_title": "山梨県甲府市富竹一丁目１０番３３号",
     "floor_m2": 3174.6,
-    "floor_source": "https://www.bookoff.co.jp/shop/shop20545.html",
-    "floor_note": "size欄の記載(出典はsource)"
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "オフハウス/ハードオフ/ホビーオフ 甲府向町店(グリーンタウン甲府東E棟)",

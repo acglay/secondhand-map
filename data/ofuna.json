@@ -28,9 +28,9 @@
     "parking_ease": "ok",
     "parking_note": "店舗駐車場622台。購入金額に応じて1〜3時間無料、買取は2時間無料(以降有料)",
     "parking_source": "https://www.bookoff.co.jp/shop/shop20421.html",
-    "floor_m2": 2526.35,
-    "floor_source": "https://www.ryutsuu.biz/backnumber/store/%E3%83%96%E3%83%83%E3%82%AF%E3%82%AA%E3%83%95%EF%BC%8F%E6%96%B0%E3%81%97%E3%81%84%E3%82%BF%E3%82%A4%E3%83%97%E3%81%AE%E5%A4%A7%E5%9E%8B%E5%BA%97%E8%88%97%E3%82%92%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C.html",
-    "floor_note": "開店時(2009年9月、公式プレスリリース)で売場面積764.22坪(2,526.35㎡)、SUPER BAZAAR業態の1号店。Geminiの主張(約2,500㎡/750坪、SB1号店)とほぼ一致。",
+    "floor_m2": 2494.8,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)(以前の値 2526㎡: 開店時(2009年9月、公式プレスリリース)で売場面積764.22坪(2,526.35㎡)、SUPER BAZAAR業態の1号店。Geminiの主張(約2,500㎡/750坪、SB1号店)とほぼ一致。)",
     "mega": true,
     "lng": 139.538498,
     "lat": 35.354252,
@@ -65,13 +65,13 @@
     "parking_ease": "easy",
     "parking_note": "店舗駐車場660台。購入にかかわらず入庫後120分無料(以降有料)",
     "parking_source": "https://www.bookoff.co.jp/shop/shop20379.html",
-    "floor_note": "2025-10リニューアルで1,000坪超に拡大(タウンニュース)。表示値は下限",
-    "floor_source": "https://www.townnews.co.jp/0108/2025/10/16/806641.html",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)(以前の値 3306㎡: 2025-10リニューアルで1,000坪超に拡大(タウンニュース)。表示値は下限)",
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
     "mega": true,
     "lng": 139.555771,
     "lat": 35.428234,
     "geo_title": "神奈川県横浜市戸塚区川上町５２番地",
-    "floor_m2": 3306
+    "floor_m2": 2465.1
   },
   {
     "name": "BOOKOFF SUPER BAZAAR Luz湘南辻堂店",
@@ -104,7 +104,10 @@
     "mega": true,
     "lng": 139.448318,
     "lat": 35.3381,
-    "geo_title": "神奈川県藤沢市辻堂神台一丁目２番１２号"
+    "geo_title": "神奈川県藤沢市辻堂神台一丁目２番１２号",
+    "floor_m2": 1811.7,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF PLUS 藤沢大庭店",

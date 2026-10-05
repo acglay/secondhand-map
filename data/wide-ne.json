@@ -31,7 +31,10 @@
     "mega": true,
     "lng": 140.17514,
     "lat": 36.036289,
-    "geo_title": "茨城県阿見町住吉二丁目８番"
+    "geo_title": "茨城県阿見町住吉二丁目８番",
+    "floor_m2": 5167.8,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 水戸姫子店",
@@ -66,7 +69,10 @@
     "mega": true,
     "lng": 140.425064,
     "lat": 36.37907,
-    "geo_title": "茨城県水戸市姫子二丁目７６９番地"
+    "geo_title": "茨城県水戸市姫子二丁目７６９番地",
+    "floor_m2": 1716,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 17号前橋リリカ店",
@@ -98,9 +104,9 @@
     "parking_ease": "easy",
     "parking_note": "前橋リリカ駐車場1027台(無料)",
     "parking_source": "https://www.bookoff.co.jp/shop/shop20459.html",
-    "floor_m2": 5843.04,
-    "floor_source": "https://www.ryutsuu.biz/backnumber/store/d120818.html",
-    "floor_note": "開店時(2011年11月、公式プレスリリース)で売場面積1,767坪(5,843.04㎡)、ブックオフグループ最大の店舗。Geminiの主張(約5,851㎡/1,767坪、日本一)とほぼ一致。",
+    "floor_m2": 5372.4,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)(以前の値 5843㎡: 開店時(2011年11月、公式プレスリリース)で売場面積1,767坪(5,843.04㎡)、ブックオフグループ最大の店舗。Geminiの主張(約5,851㎡/1,767坪、日本一)とほぼ一致。)",
     "mega": true,
     "lng": 139.067383,
     "lat": 36.404095,
@@ -138,7 +144,10 @@
     "mega": true,
     "lng": 139.376419,
     "lat": 36.280628,
-    "geo_title": "群馬県太田市飯塚町１９６１番地"
+    "geo_title": "群馬県太田市飯塚町１９６１番地",
+    "floor_m2": 2907.3,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR トライアル伊勢崎中央店",
@@ -172,7 +181,10 @@
     "mega": true,
     "lng": 139.181808,
     "lat": 36.313828,
-    "geo_title": "群馬県伊勢崎市連取元町"
+    "geo_title": "群馬県伊勢崎市連取元町",
+    "floor_m2": 2480,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR PAPA上尾店",
@@ -206,7 +218,10 @@
     "mega": true,
     "lng": 139.579102,
     "lat": 35.986404,
-    "geo_title": "埼玉県上尾市緑丘三丁目３番"
+    "geo_title": "埼玉県上尾市緑丘三丁目３番",
+    "floor_m2": 3735.6,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 17号鴻巣吹上店",
@@ -240,7 +255,10 @@
     "mega": true,
     "lng": 139.439758,
     "lat": 36.11409,
-    "geo_title": "埼玉県鴻巣市新宿二丁目１９３番地"
+    "geo_title": "埼玉県鴻巣市新宿二丁目１９３番地",
+    "floor_m2": 1956.9,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 大宮ステラタウン店",
@@ -274,7 +292,10 @@
     "mega": true,
     "lng": 139.621918,
     "lat": 35.933678,
-    "geo_title": "埼玉県さいたま市北区宮原町一丁目８５３番地"
+    "geo_title": "埼玉県さいたま市北区宮原町一丁目８５３番地",
+    "floor_m2": 4636.5,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 草加セーモンプラザ店",
@@ -308,7 +329,10 @@
     "mega": true,
     "lng": 139.784073,
     "lat": 35.853985,
-    "geo_title": "埼玉県草加市清門一丁目４０１番地"
+    "geo_title": "埼玉県草加市清門一丁目４０１番地",
+    "floor_m2": 2626.8,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 松戸駅東口店",
@@ -343,7 +367,10 @@
     "mega": true,
     "lng": 139.901047,
     "lat": 35.784859,
-    "geo_title": "千葉県松戸市松戸１２３０番地"
+    "geo_title": "千葉県松戸市松戸１２３０番地",
+    "floor_m2": 2148.3,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR イトーヨーカドー流山店",
@@ -377,7 +404,10 @@
     "mega": true,
     "lng": 139.899445,
     "lat": 35.849094,
-    "geo_title": "千葉県流山市流山九丁目８００番地"
+    "geo_title": "千葉県流山市流山九丁目８００番地",
+    "floor_m2": 2646.6,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR 東千葉祐光店",
@@ -412,7 +442,10 @@
     "mega": true,
     "lng": 140.127228,
     "lat": 35.619659,
-    "geo_title": "千葉県千葉市中央区祐光三丁目２番"
+    "geo_title": "千葉県千葉市中央区祐光三丁目２番",
+    "floor_m2": 2461.8,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF SUPER BAZAAR ららぽーとTOKYO-BAY North Gate店",
@@ -443,9 +476,9 @@
     "parking_ease": "ok",
     "parking_note": "ららぽーとTOKYO-BAY共用駐車場1540台。料金の明記なし",
     "parking_source": "https://www.bookoff.co.jp/shop/shop20462.html",
-    "floor_m2": 4873.04,
-    "floor_source": "https://funabashi.keizai.biz/headline/196/",
-    "floor_note": "開店時(2012年4月、船橋経済新聞)で総売場面積1,474坪(坪数からの換算)、「全国最大規模」と記載。この店舗は施設名称変更(ビビットスクエア→ららぽーとTOKYO-BAY North Gate、2025年10月)後の現在名で、同一店舗。Geminiが別名で挙げた「ビビット南船橋店」は閉店・別店ではなくこのエントリと同一店と確認。売場面積は約4,870㎡/55万点というGemini主張とおおむね一致(55万点は未確認)。2026年6月7日にホビー・雑貨売場拡大のリニューアルがあり現在値は未確認。",
+    "floor_m2": 4824.6,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)(以前の値 4873㎡: 開店時(2012年4月、船橋経済新聞)で総売場面積1,474坪(坪数からの換算)、「全国最大規模」と記載。この店舗は施設名称変更(ビビットスクエア→ららぽーとTOKYO-BAY North Gate、2025年10月)後の現在名で、同一店舗。Geminiが別名で挙げた「ビビット南船橋店」は閉店・別店ではなくこのエントリと同一店と確認。売場面積は約4,870㎡/55万点というGemini主張とおおむね一致(55万点は未確認)。2026年6月7日にホビー・雑貨売場拡大のリニューアルがあり現在値は未確認。)",
     "mega": true,
     "lng": 139.992218,
     "lat": 35.687626,
@@ -482,7 +515,10 @@
     "mega": true,
     "lng": 140.048813,
     "lat": 35.655861,
-    "geo_title": "千葉県千葉市花見川区幕張町四丁目５４４番地"
+    "geo_title": "千葉県千葉市花見川区幕張町四丁目５４４番地",
+    "floor_m2": 2560.8,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "ハードオフ・オフハウス・ホビーオフ・ガレージオフ・ハードオフ工具館 埼玉東松山店",

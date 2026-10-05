@@ -35,7 +35,10 @@
     "mega": true,
     "lng": 139.93811,
     "lat": 35.709042,
-    "geo_title": "千葉県市川市鬼高三丁目２８番１６号"
+    "geo_title": "千葉県市川市鬼高三丁目２８番１６号",
+    "floor_m2": 2428.8,
+    "floor_source": "https://www.bookoff.co.jp/brand/bsb/",
+    "floor_note": "ブックオフ公式BSB一覧の平米数(2026-10-05取得)"
   },
   {
     "name": "BOOKOFF 江東門前仲町店",
